@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1215984839204722}
+  m_IsPrefabParent: 1
+--- !u!1 &1215984839204722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4727823685678768}
+  - component: {fileID: 114884372010594680}
+  - component: {fileID: 114154429508854724}
+  m_Layer: 0
+  m_Name: RecordPlayBack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4727823685678768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215984839204722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114154429508854724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215984839204722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a54370e760cdd44591e9e31a47d0a6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RecordStr: 
+  recordArr:
+    StartId: 0
+    StopId: 0
+    Startut: 0
+    Stoput: 0
+    data: []
+  type: 0
+  StartId: 0
+  StopId: 0
+  id: 0
+  VideoPlaying: 0
+  videoIndex: 0
+--- !u!114 &114884372010594680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215984839204722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38121c442d7d3764da8cf13d5a590f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recording: 0
+  RecordStr: 
+  recordArr:
+    StartId: 0
+    StopId: 0
+    Startut: 0
+    Stoput: 0
+    data: []
+  id: 0
+  MyDocuments: 

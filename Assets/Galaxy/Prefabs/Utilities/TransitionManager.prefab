@@ -1,0 +1,1587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &170898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 490114}
+  - 114: {fileID: 11412300}
+  m_Layer: 0
+  m_Name: TransitionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11412300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31acac142aaf88f45837c29610bdea00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewVolume: {fileID: 0}
+  Tools: {fileID: 0}
+  Cube: {fileID: 0}
+  TransitionTimeFullscreen: 3
+  OpacityCurveFullscreen:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TransitionCurveFullscreen:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2269507
+      value: 0.09867107
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.6878843
+      value: 0.8867778
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TransitionTimeCube: 3
+  OpacityCurveCube:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.7
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TransitionCurveCube:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.6
+      value: 0.87
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TransitionTimeSkyboxFadeOut: 0.5
+  OpacityCurveSkyboxFadeOut:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2269507
+      value: 0.09867107
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.6878843
+      value: 0.8867778
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  IntroTransitionCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2
+      value: 0.1
+      inSlope: 1.4615059
+      outSlope: 1.4615059
+      tangentMode: 0
+    - time: 0.44936413
+      value: 0.7280115
+      inSlope: 1.719489
+      outSlope: 1.719489
+      tangentMode: 0
+    - time: 0.69790506
+      value: 0.96
+      inSlope: 0.32782555
+      outSlope: 0.32782555
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  GalaxyToSSTransitionCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.4
+      value: 0.03
+      inSlope: 0.22750348
+      outSlope: 0.22750348
+      tangentMode: 0
+    - time: 0.8
+      value: 0.65
+      inSlope: 3.0680654
+      outSlope: 3.0680654
+      tangentMode: 0
+    - time: 0.9
+      value: 0.95
+      inSlope: 1.8811226
+      outSlope: 1.8811226
+      tangentMode: 0
+    - time: 0.95
+      value: 0.999
+      inSlope: 0.062571414
+      outSlope: 0.062571414
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  SSToGalaxyTransitionCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.13086538
+      value: 0.71293455
+      inSlope: 3.387332
+      outSlope: 3.387332
+      tangentMode: 0
+    - time: 0.23722368
+      value: 0.91222435
+      inSlope: 0.9040053
+      outSlope: 0.9040053
+      tangentMode: 0
+    - time: 0.39920843
+      value: 0.975
+      inSlope: 0.14692545
+      outSlope: 0.14692545
+      tangentMode: 0
+    - time: 0.7
+      value: 0.997
+      inSlope: 0.02861023
+      outSlope: 0.02861023
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  SSToPlanetTransitionCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3
+      value: 0.1
+      inSlope: 1.033394
+      outSlope: 1.033394
+      tangentMode: 0
+    - time: 0.6
+      value: 0.8
+      inSlope: 1.2033861
+      outSlope: 1.2033861
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  PlanetToSSPositionScaleCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3
+      value: 0.68
+      inSlope: 2.007475
+      outSlope: 2.007475
+      tangentMode: 0
+    - time: 0.6
+      value: 0.975
+      inSlope: 0.16308782
+      outSlope: 0.16308782
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  PlanetToSSRotationCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.6
+      value: 0.25
+      inSlope: 2.2290647
+      outSlope: 2.2290647
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  OpacityCurveFirstScene:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 10
+    - time: 0.25
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TransitionTimeOpeningScene: 3.25
+  BackTransitionOpacityCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 10
+    - time: 0.2
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.7
+      value: 0.95
+      inSlope: 0.5129467
+      outSlope: 0.5129467
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  PlanetToSSTransitionOpacityCurveContentChange:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 10
+    - time: 0.6
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.8
+      value: 0.2
+      inSlope: 2.8348823
+      outSlope: 2.8348823
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  GalaxyVisibilityTimeClosingScene: 1.5
+  SolarSystemVisibilityTimeClosingScene: 1.5
+  PlanetVisibilityTimeClosingScene: 2
+  OpacityCurveClosingScene:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 31
+    - time: 0.098062895
+      value: 0.00050776894
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3
+      value: 0.1
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.8
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  StartTransitionTime: 1
+  POIOpacityCurveStartTransition:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2269507
+      value: 0.09867107
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.6878843
+      value: 0.8867778
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  OrbitSpeedCurveStartTransition:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2269507
+      value: 0.09867107
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.6878843
+      value: 0.8867778
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  EndTransitionTimeOffset: -0.5
+  POIOpacityChangeTimeEndTransition: 2
+  POIOpacityTimeOffsetEndTransition: 0.015
+  POIOpacityCurveEndTransition:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2269507
+      value: 0.09867107
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.6878843
+      value: 0.8867778
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  TransitionTimeSkyboxFadeIn: 1
+  OpacityCurveSkyboxFadeIn:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.2269507
+      value: 0.09867107
+      inSlope: 1.138337
+      outSlope: 1.138337
+      tangentMode: 0
+    - time: 0.6878843
+      value: 0.8867778
+      inSlope: 0.9730458
+      outSlope: 0.9730458
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  GalaxyClips:
+    StaticClip: {fileID: 8300000, guid: 0d609867a0ef4454d9a7b06bcf3f2640, type: 3}
+    MovingClip: {fileID: 8300000, guid: f24a248dd180fc84f84c6d2efe484c40, type: 3}
+  SolarSystemClips:
+    StaticClip: {fileID: 8300000, guid: c1473aaa5272cce4694a9fc676c5f331, type: 3}
+    MovingClip: {fileID: 8300000, guid: 342e3c1e3a888af498a699cd9632734a, type: 3}
+  PlanetClips:
+    StaticClip: {fileID: 8300000, guid: 6ca103425f48cbe4d8a05eef5dd5fdec, type: 3}
+    MovingClip: {fileID: 8300000, guid: 489857a458f66804abd8a808c2ec6e47, type: 3}
+  BackClips:
+    StaticClip: {fileID: 8300000, guid: 96635a8d2a4617f41b10fbd22f706895, type: 3}
+    MovingClip: {fileID: 8300000, guid: 3da498c9be5ed7b43b033dd8e16f228d, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionOpacityCurveContentChange.m_Curve.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: VisibilityTimeClosingScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[1].value
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 1.4615059
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 1.4615059
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 1.2033861
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 1.2033861
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[3].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[3].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[4].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[4].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[1].time
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFullscreen.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[1].time
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveCube.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionTimeSkyboxFadeIn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[0].inSlope
+      value: 14.161913
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[0].outSlope
+      value: 11.832322
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[0].tangentMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[1].value
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 0.93955433
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 0.93955433
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 0.1847744
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 0.1847744
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[4].time
+      value: 0.4534066
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[4].value
+      value: 0.98488814
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[4].inSlope
+      value: 0.05722046
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[4].outSlope
+      value: 0.05722046
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[5].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyTransitionCurveContentChange.m_Curve.Array.data[5].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.60109925
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.3264856
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 2.9568374
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 2.9568374
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[3].time
+      value: 0.70155245
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[3].value
+      value: 0.665141
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[1].value
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 0.6324798
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 0.6324798
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 0.5129467
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 0.5129467
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[4].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[4].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[2].tangentMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 3.0680654
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 3.0680654
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[4].time
+      value: 0.8013913
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[4].value
+      value: 0.86954343
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[4].inSlope
+      value: 1.1989474
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemTransitionCurveContentChange.m_Curve.Array.data[4].outSlope
+      value: 1.1989474
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyVisibilityTimeClosingScene
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[1].value
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 0.22750348
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 0.22750348
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 3.0680654
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 3.0680654
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[2].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[3].time
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[3].value
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 1.8811226
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 1.8811226
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[4].time
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[4].value
+      value: 0.999
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[4].inSlope
+      value: 0.062571414
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[4].outSlope
+      value: 0.062571414
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[5].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[5].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.13086538
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[1].value
+      value: 0.71293455
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 3.387332
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 3.387332
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.23722368
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.91222435
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 0.9040053
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 0.9040053
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[1].value
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 2.007475
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 2.007475
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 0.16308782
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 0.16308782
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[2].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[4].time
+      value: 0.8013913
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[4].value
+      value: 0.86954343
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[4].inSlope
+      value: 1.1989474
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[4].outSlope
+      value: 1.1989474
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[5].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionCurveContentChange.m_Curve.Array.data[5].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SolarSystemVisibilityTimeClosingScene
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[0].inSlope
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[0].outSlope
+      value: Infinity
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[0].tangentMode
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[1].time
+      value: 0.098062895
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[1].value
+      value: 0.00050776894
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[2].time
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[2].value
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[2].inSlope
+      value: 1.138337
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[2].outSlope
+      value: 1.138337
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[3].time
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[3].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveClosingScene.m_Curve.Array.data[3].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[1].time
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[1].value
+      value: 0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[1].inSlope
+      value: 0.9730458
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[1].outSlope
+      value: 0.9730458
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionCurveCube.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[3].time
+      value: 0.39920843
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[3].value
+      value: 0.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 0.14692545
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 0.14692545
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToPlanetTransitionCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToPlanetTransitionCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 1.033394
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToPlanetTransitionCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 1.033394
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.44936413
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.7280115
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 1.719489
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 1.719489
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[3].time
+      value: 0.69790506
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[3].value
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[3].inSlope
+      value: 0.32782555
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: IntroTransitionCurveContentChange.m_Curve.Array.data[3].outSlope
+      value: 0.32782555
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: TransitionTimeOpeningScene
+      value: 3.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[0].tangentMode
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[1].time
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[3].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OpacityCurveFirstScene.m_Curve.Array.data[3].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: EndTransitionTimeOffset
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: POIOpacityChangeTimeEndTransition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: POIOpacityTimeOffsetEndTransition
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BackTransitionOpacityCurveContentChange.m_Curve.Array.data[0].tangentMode
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[4].value
+      value: 0.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[4].inSlope
+      value: 0.02861023
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[4].outSlope
+      value: 0.02861023
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[5].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[5].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[5].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[5].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 2.2290647
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSRotationCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 2.2290647
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionOpacityCurveContentChange.m_Curve.Array.data[1].time
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionOpacityCurveContentChange.m_Curve.Array.data[2].time
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionOpacityCurveContentChange.m_Curve.Array.data[2].value
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionOpacityCurveContentChange.m_Curve.Array.data[2].inSlope
+      value: 2.8348823
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: PlanetToSSTransitionOpacityCurveContentChange.m_Curve.Array.data[2].outSlope
+      value: 2.8348823
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[4].time
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[6].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[6].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[6].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[6].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[7].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SSToGalaxyTransitionCurveContentChange.m_Curve.Array.data[7].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[5].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[5].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[6].time
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[6].value
+      value: 0.9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[6].inSlope
+      value: 0.00059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[6].outSlope
+      value: 0.00059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[7].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: GalaxyToSSTransitionCurveContentChange.m_Curve.Array.data[7].value
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 170898}
+  m_IsPrefabParent: 1

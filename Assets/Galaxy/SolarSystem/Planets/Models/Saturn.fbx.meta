@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: 7b07e7791d55ebe45877e28618677532
+timeCreated: 1454963793
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Saturn
+    100004: Venus
+    100006: Venus.005
+    100008: Venus.006
+    100010: SaturnRings
+    100012: SaturnGlow
+    400000: //RootNode
+    400002: Saturn
+    400004: Venus
+    400006: Venus.005
+    400008: Venus.006
+    400010: SaturnRings
+    400012: SaturnGlow
+    2300000: Saturn
+    2300002: Venus
+    2300004: Venus.005
+    2300006: Venus.006
+    2300008: //RootNode
+    2300010: SaturnRings
+    2300012: SaturnGlow
+    3300000: Saturn
+    3300002: Venus
+    3300004: Venus.005
+    3300006: Venus.006
+    3300008: //RootNode
+    3300010: SaturnRings
+    3300012: SaturnGlow
+    4300000: Venus
+    4300002: Venus.005
+    4300004: Saturn
+    4300006: Venus.006
+    4300008: SaturnRings
+    4300010: SaturnGlow
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

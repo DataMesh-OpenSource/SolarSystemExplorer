@@ -1,0 +1,1677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 475368}
+  - 114: {fileID: 11439364}
+  - 114: {fileID: 11448594}
+  - 82: {fileID: 8289458}
+  - 114: {fileID: 11410290}
+  - 114: {fileID: 11470810}
+  m_Layer: 0
+  m_Name: AudioRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &104748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443040}
+  - 82: {fileID: 8272994}
+  m_Layer: 0
+  m_Name: BackgroundTrack_00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &114932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 423562}
+  - 82: {fileID: 8296956}
+  m_Layer: 0
+  m_Name: BackgroundTrack_08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &153706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 410820}
+  - 82: {fileID: 8251722}
+  m_Layer: 0
+  m_Name: BackgroundTrack_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &154538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 468742}
+  - 82: {fileID: 8258964}
+  m_Layer: 0
+  m_Name: BackgroundTrack_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 446778}
+  - 82: {fileID: 8279662}
+  m_Layer: 0
+  m_Name: BackgroundTrack_09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410820
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475368}
+  m_RootOrder: 1
+--- !u!4 &423562
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475368}
+  m_RootOrder: 2
+--- !u!4 &443040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475368}
+  m_RootOrder: 0
+--- !u!4 &446778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475368}
+  m_RootOrder: 3
+--- !u!4 &468742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475368}
+  m_RootOrder: 4
+--- !u!4 &475368
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 443040}
+  - {fileID: 410820}
+  - {fileID: 423562}
+  - {fileID: 446778}
+  - {fileID: 468742}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!82 &8251722
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153706}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24360404, guid: efd513fd77cc8834ea3c29f2a0d39d03,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: b93b38e899a8eeb4a80d25398b6c277c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.367
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8258964
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154538}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24353070, guid: efd513fd77cc8834ea3c29f2a0d39d03,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: df95a80cbb718674bb2fb23240d3bf0e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.367
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8272994
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104748}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24354744, guid: efd513fd77cc8834ea3c29f2a0d39d03,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: fab91b6010609f54eba8091957f6d217, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.367
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8279662
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184452}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24358822, guid: efd513fd77cc8834ea3c29f2a0d39d03,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: f9ecfebf63d887748ab4c6ea5bca2280, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.367
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8289458
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102370}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300001, guid: 3d2bc39ba62d8bf4c9d9de6a0c76d326,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.52381855
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8296956
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114932}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24377626, guid: efd513fd77cc8834ea3c29f2a0d39d03,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 21a88e5b982febe48905ff9c3c765d7d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.367
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11410290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04c77c60b1738f143bb9f120bb9b5cc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: efd513fd77cc8834ea3c29f2a0d39d03, type: 2}
+  Welcome: 01_Welcome
+  Galaxy: 02_Galaxy
+  SolarSystem: 03_SolarSystem_Intro
+  Planet: 04_PlanetaryView
+--- !u!114 &11439364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2881458e926838a43b259c41c1995865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Welcome:
+    clip: {fileID: 8300000, guid: a12bad4b8b0f88a4fa4c02433ab6da0c, type: 3}
+    delay: 4
+    allowReplay: 0
+  Disclaimer1:
+    clip: {fileID: 8300000, guid: cc03e104819d55c4c99c08af4c9ba49c, type: 3}
+    delay: 0
+    allowReplay: 0
+  Disclaimer2:
+    clip: {fileID: 8300000, guid: 7e8c1c6be3a7d844db65ea5826348704, type: 3}
+    delay: 0.5
+    allowReplay: 0
+  Disclaimer3:
+    clip: {fileID: 8300000, guid: 4756861d0e1bec743ae05a3dba8a2aff, type: 3}
+    delay: 0.5
+    allowReplay: 0
+  ExploreRoom:
+    clip: {fileID: 8300000, guid: 08d9d48f0f8558d4ea34080e04181e88, type: 3}
+    delay: 1
+    allowReplay: 0
+  StandFacingWall:
+    clip: {fileID: 8300000, guid: ce04e593ff9764043971b991dd900a87, type: 3}
+    delay: 1
+    allowReplay: 0
+  PaintWall:
+    clip: {fileID: 8300000, guid: 05ccab255a6cce94da4750a35d07e854, type: 3}
+    delay: 0
+    allowReplay: 0
+  EachWall:
+    clip: {fileID: 8300000, guid: 9f0023332fb6ab848bd3e341cf71194a, type: 3}
+    delay: 10
+    allowReplay: 0
+  PlaceLogo:
+    clip: {fileID: 8300000, guid: fdec5d9282287e64398a7cf774fe7fe1, type: 3}
+    delay: 2
+    allowReplay: 0
+  Toolbar:
+    clip: {fileID: 8300000, guid: 68eb91f3474066e449acc326830c1c26, type: 3}
+    delay: 3
+    allowReplay: 0
+  GazeAndGestures:
+    clip: {fileID: 8300000, guid: f264e49e66235f841bf50d660362e51e, type: 3}
+    delay: 0.5
+    allowReplay: 0
+  VoiceCommand:
+    clip: {fileID: 8300000, guid: 7e8c15446bedc5b48b1799f7cecc9629, type: 3}
+    delay: 0.5
+    allowReplay: 0
+  POIMarkers:
+    clip: {fileID: 8300000, guid: 401403a947954324992848e6b6521256, type: 3}
+    delay: 2
+    allowReplay: 0
+  TrueScale:
+    clip: {fileID: 8300000, guid: 68d93bfa589bcad4c84989d432b35c7a, type: 3}
+    delay: 3
+    allowReplay: 0
+  TapToContinue:
+    clip: {fileID: 8300000, guid: 94afb9b28197b2b40bbccde2ac0543ed, type: 3}
+    delay: 2
+    allowReplay: 1
+  startTutorialAliases:
+  - start tutorial
+  - begin tutorial
+  stopTutorialAliases:
+  - stop tutorial
+  - end tutorial
+  FadeOutTime: 2
+--- !u!114 &11448594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e5a9c38f6989249b88204932d7884f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - name: galaxy_explorer_logo
+    spatialization: 0
+    roomSize: 3
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.522
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: ed20ee42b72e88147ad482349c7e3960, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: i_ui_rollover
+    spatialization: 0
+    roomSize: 0
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.305
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 2
+    instanceTimeBuffer: 1.04
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 67a8c3727aa617746b4777b389194d12, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: scan_starpainting
+    spatialization: 0
+    roomSize: 0
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.147
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 14db27e155ff98f4284e105d123d2ba5, type: 3}
+        looping: 1
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: ui_galaxy_airtap
+    spatialization: 0
+    roomSize: 0
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 0}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.05
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0.4
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: e0a1c55a8188b4e48b5b9e3c47b4433e, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: ui_galaxy_pinch_engaged
+    spatialization: 0
+    roomSize: 0
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 0}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.08
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: fdb13dbdaaa1d544397c5003de29a729, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: ui_galaxy_pinch_disengaged
+    spatialization: 0
+    roomSize: 0
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 0}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.08
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 0a4cf380cf842d64ab12c46653f19b38, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: RandomStars
+    spatialization: 2
+    roomSize: 1
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.426
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 57cecfb1d82b76849ad4a52de389a297, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      - sound: {fileID: 8300000, guid: 931b6c45530d4054fb8c9edeccc2f291, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      - sound: {fileID: 8300000, guid: 6e9a35ec902b13443899010d45e2fd5e, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      - sound: {fileID: 8300000, guid: f2e7945bc873a214da87d15c772a25c9, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      - sound: {fileID: 8300000, guid: 860fa7048afed5d4d99c5cae56a9b04a, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      - sound: {fileID: 8300000, guid: d82b0571a7a554642804953410ffa2cb, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Earth
+    spatialization: 2
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 3a2be10be5e01d3478a94d074e3f5348, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Jupiter
+    spatialization: 1
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 8ab97eefbbae78444abb176d604e76c2, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Mars
+    spatialization: 1
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: da3f1451588f47d44a48c4d4ddd2164e, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Mercury
+    spatialization: 2
+    roomSize: 0
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds: []
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Neptune
+    spatialization: 2
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 0aa7fb2349cd628409e28fb906b7f30f, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Pluto
+    spatialization: 2
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 25669b076f03f164c9468d7776a42d2e, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Saturn
+    spatialization: 2
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: cc7af020abf675d4e8d4a3a6670b8c9e, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Uranus
+    spatialization: 2
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 2c869de423fb4c843828a7023ba484ca, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: OneOffs/Venus
+    spatialization: 2
+    roomSize: 0
+    minGain: -12
+    maxGain: 6
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 346d438984219584e9dd44f856664897, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: Ambience_Planet_Earth_CloseUp
+    spatialization: 2
+    roomSize: 1
+    minGain: -3.8
+    maxGain: 5.1
+    unityGainDistance: 1
+    bus: {fileID: 0}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 0.98
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0.5
+    instanceLimit: 1
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 266296d2cf91e9b4998e8f4e6829c126, type: 3}
+        looping: 1
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: Intro_Galaxy_Logo_Hydrate
+    spatialization: 0
+    roomSize: 1
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 5dff9d547ec0fc7469dea0d3a95b5a24, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: Intro_Galaxy_Globe_Placement
+    spatialization: 2
+    roomSize: 1
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 8300000, guid: 52e187b57accf84438b4c996bf088340, type: 3}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  - name: Galaxy_Intro_Globe_Hydrate
+    spatialization: 0
+    roomSize: 1
+    minGain: -96
+    maxGain: 12
+    unityGainDistance: 1
+    bus: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac, type: 2}
+    pitchCenter: 1
+    pitchRandomization: 0
+    volumeCenter: 1
+    volumeRandomization: 0
+    panCenter: 0
+    panRandomization: 0
+    fadeInTime: 0
+    instanceLimit: 0
+    instanceTimeBuffer: 0
+    instanceBehavior: 0
+    container:
+      containerType: 0
+      looping: 0
+      loopTime: 0
+      sounds:
+      - sound: {fileID: 0}
+        looping: 0
+        delayCenter: 0
+        delayRandomization: 0
+      crossfadeTime: 0
+      currentClip: 0
+  globalEventInstanceLimit: 0
+  globalInstanceBehavior: 0
+--- !u!114 &11470810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102370}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2bd6d1d8e0242418eecf06eba94e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEvents:
+  - audioEvent: GalaxyView_ShootingStars_Loop
+    emitter: {fileID: 0}
+    playOnStart: 0
+    playOnKeyHit: 108
+    stopOnKeyHit: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[2].name
+      value: galaxy_explorer_logo
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[2].roomSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[2].volumeCenter
+      value: 0.522
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[2].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[2].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: ed20ee42b72e88147ad482349c7e3960, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[3].name
+      value: i_ui_rollover
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[3].volumeCenter
+      value: 0.305
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[3].instanceLimit
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[3].instanceTimeBuffer
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[3].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 67a8c3727aa617746b4777b389194d12, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[3].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[4].name
+      value: scan_starpainting
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[4].container.looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[4].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 14db27e155ff98f4284e105d123d2ba5, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[4].volumeCenter
+      value: 0.147
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[4].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[5].name
+      value: ui_galaxy_airtap
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[5].volumeCenter
+      value: 0.246
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[6].name
+      value: ui_galaxy_pinch_engaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[6].volumeCenter
+      value: 0.162
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[4].container.sounds.Array.data[0].looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[5].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: e0a1c55a8188b4e48b5b9e3c47b4433e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[6].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: fdb13dbdaaa1d544397c5003de29a729, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[7].name
+      value: ui_galaxy_pinch_disengaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[7].volumeCenter
+      value: 0.118
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[7].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0a4cf380cf842d64ab12c46653f19b38, type: 3}
+    - target: {fileID: 0}
+      propertyPath: Welcome.audio
+      value: 
+      objectReference: {fileID: 8300000, guid: a12bad4b8b0f88a4fa4c02433ab6da0c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[0].instanceTimeBuffer
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[0].instanceBehavior
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[0].instanceLimit
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].name
+      value: RandomStars
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 57cecfb1d82b76849ad4a52de389a297, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].container.sounds.Array.data[1].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 931b6c45530d4054fb8c9edeccc2f291, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].container.sounds.Array.data[2].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 6e9a35ec902b13443899010d45e2fd5e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].container.sounds.Array.data[3].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: f2e7945bc873a214da87d15c772a25c9, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].container.sounds.Array.data[4].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 860fa7048afed5d4d99c5cae56a9b04a, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[8].container.sounds.Array.data[5].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: d82b0571a7a554642804953410ffa2cb, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[9].name
+      value: OneOffs/Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[9].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[9].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[9].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[9].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a2be10be5e01d3478a94d074e3f5348, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[10].name
+      value: OneOffs/Jupiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[10].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[10].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[10].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[10].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ab97eefbbae78444abb176d604e76c2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[11].name
+      value: OneOffs/Mars
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[11].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[11].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[11].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[11].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: da3f1451588f47d44a48c4d4ddd2164e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[12].name
+      value: OneOffs/Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[13].name
+      value: OneOffs/Neptune
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[13].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[13].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[13].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[13].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0aa7fb2349cd628409e28fb906b7f30f, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[14].name
+      value: OneOffs/Pluto
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[14].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[14].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[14].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[14].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 25669b076f03f164c9468d7776a42d2e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[15].name
+      value: OneOffs/Saturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[15].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[15].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[15].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: cc7af020abf675d4e8d4a3a6670b8c9e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[16].name
+      value: OneOffs/Uranus
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[16].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[16].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[16].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[16].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2c869de423fb4c843828a7023ba484ca, type: 3}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[17].name
+      value: OneOffs/Venus
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[17].minGain
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[17].maxGain
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[17].bus
+      value: 
+      objectReference: {fileID: 24300001, guid: d7065dcba9c99124984bb3d4a1d8f6ac,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: events.Array.data[17].container.sounds.Array.data[0].sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 346d438984219584e9dd44f856664897, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 102370}
+  m_IsPrefabParent: 1
