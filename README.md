@@ -1,6 +1,6 @@
 # SolarSystemExplor
 
-Note: This project needs METoolkit, which is not include in here. You must release METoolkit into this project manually.
+Note: This project depends on METoolkit, which is not included here. You need to add METoolkit into this project manually.
 
 You can get METoolkit here:
 
