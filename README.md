@@ -1,4 +1,4 @@
-# SolarSystemExplor
+# SolarSystemExplorer
 
 Note: This project depends on METoolkit, which is not included here. You need to add METoolkit into this project manually.
 
