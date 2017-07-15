@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using MEHoloClient.Entities;
+using MEHoloClient.Proto;
 
 public class DefaultObjectObserver : MonoBehaviour
 {
@@ -69,15 +70,22 @@ public class DefaultObjectObserver : MonoBehaviour
 
     public ShowObject CreateShowObjectForMessage()
     {
-        ShowObject obj = new ShowObject(id, true, info, null);
-        obj.obj_type = type;
+        //ShowObject obj = new ShowObject(id, true, info, null);
+        ShowObject obj = new ShowObject();
+        obj.ShowId = id;
+        obj.Pr = info;
+        obj.ObjInfo.ObjType = type;
         return obj;
     }
 
     public virtual MsgEntry CreateMsgEntry()
     {
-        MsgEntry entry = new MsgEntry(OP_TYPE.UPD, id, true, info, null, null);
-        entry.obj_type = type;
+        //MsgEntry entry = new MsgEntry(OP_TYPE.UPD, id, true, info, null, null);
+        MsgEntry entry = new MsgEntry();
+        entry.ShowId = id;
+        entry.OpType = MsgEntry.Types.OP_TYPE.Upd;
+        entry.Pr.Add(info);
+        entry.Info.ObjType = type;
         return entry;
     }
 

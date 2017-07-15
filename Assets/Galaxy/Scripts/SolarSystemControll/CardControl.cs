@@ -32,7 +32,10 @@ public class CardControl : MonoBehaviour {
         //controlPanel.SetActive(false);
 	}
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
+        if (!DataMesh.AR.MEHoloEntrance.Instance.HasInit)
+            return;
 
         for (int i = 0;i < cards.Count;i ++)
         {

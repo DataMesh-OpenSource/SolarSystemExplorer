@@ -1,4 +1,5 @@
 ﻿using MEHoloClient.Entities;
+using MEHoloClient.Proto;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -55,8 +56,12 @@ public class ContainerObject : DefaultObjectObserver
     {
         UpdateData();
         this.id = this.cv.containerType.ToString();
-        MsgEntry entry = new MsgEntry(OP_TYPE.UPD, id, true, info, null, null);
-        entry.obj_type = GetObjectType();
+        MsgEntry entry = new MsgEntry();
+        entry.OpType = MsgEntry.Types.OP_TYPE.Upd;
+        entry.ShowId = id;
+        entry.Pr.Add(info);
+        entry.Info = new ObjectInfo();
+        entry.Info.ObjType = GetObjectType();
         return entry;
     }
 
@@ -64,8 +69,12 @@ public class ContainerObject : DefaultObjectObserver
     {
         UpdateData();
         this.id = this.cv.containerType.ToString();
-        ShowObject so = new ShowObject(this.cv.containerType.ToString(), true, info, info);
-        so.obj_type = this.GetObjectType();
+        //ShowObject so = new ShowObject(this.cv.containerType.ToString(), true, info, info);
+        ShowObject so = new ShowObject();
+        so.ShowId = this.cv.containerType.ToString();
+        so.Pr = info;
+        so.ObjInfo = new ObjectInfo();
+        so.ObjInfo.ObjType = this.GetObjectType();
         return so;
     }
 }

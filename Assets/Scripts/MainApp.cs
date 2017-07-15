@@ -10,41 +10,21 @@ using DataMesh.AR.SpectatorView;
 using DataMesh.AR.UI;
 using DataMesh.AR;
 using DataMesh.AR.Network;
-public class VersionList
-{
-    public const string Teacher = "Teacher";
-    public const string Live = "Live";
-}
 
 public class MainApp : MonoBehaviour
 {
     public static MainApp Instance { get; private set; }
-
-
-    /// <summary>
-    /// 版本选择
-    /// </summary>
-    [HideInInspector]
-    public string appVersion;
-
     public GameObject sceneRoot;
-
     private bool isBusy = false;
-
     private SceneAnchorController anchorController;
-    //private AnchorShared anchorShared;
     private LiveController bevController;
     private CursorController cursorController;
     private MultiInputManager inputManager;
     private SolarSystem solarSystem;
     private SpeechManager speechManager;
     private BlockMenuManager menuManager;
-
     private BlockMenu mainMenu;
-
     private bool isBev = false;
-
-    //private RoomManager roomManager;
 
     void Awake()
     {
@@ -69,35 +49,15 @@ public class MainApp : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         anchorController = SceneAnchorController.Instance;
         //anchorShared = AnchorShared.Instance;
         bevController = LiveController.Instance;
         solarSystem = SolarSystem.Instance;
-        cursorController = CursorController.Instance;
+        cursorController = UIManager.Instance.cursorController;
         inputManager = MultiInputManager.Instance;
         speechManager = SpeechManager.Instance;
-        menuManager = BlockMenuManager.Instance;
-
-
-        ////////////// 加载配置文件 ////////////////
-        appVersion = AppConfig.Instance.GetConfig("version");
-
-        if (solarSystem != null)
-        {
-            CollaborationManager.Instance.appId = int.Parse(AppConfig.Instance.GetConfig("App_Id"));
-            CollaborationManager.Instance.roomId = AppConfig.Instance.GetConfig("Room_Id");
-            CollaborationManager.Instance.serverHost = AppConfig.Instance.GetConfig("Server_Url");
-        }
-        if (anchorController != null)
-        {
-            anchorController.serverHost = AppConfig.Instance.GetConfig("Share_Anchor_Url");
-            anchorController.appId = int.Parse(AppConfig.Instance.GetConfig("App_Id"));
-            anchorController.roomId = AppConfig.Instance.GetConfig("Room_Id");
-        }
-
+        menuManager = UIManager.Instance.menuManager;
         /////////////// 各种初始化 /////////////////////
-
         StartCoroutine(WaitForInit());
     }
 
@@ -121,32 +81,8 @@ public class MainApp : MonoBehaviour
 
         /////////////// 启动流程 /////////////////////
         cursorController.isBusy = true;
-
-        switch (appVersion)
-        {
-            case VersionList.Teacher:
-                // 启动课件
-                solarSystem.TurnOn();
-                // 启动游标
-                if (inputManager.InteractiveType != MultiInputManager.InputType.Touch)
-                {
-                    cursorController.TurnOn();
-                }
-                break;
-
-            case VersionList.Live:
-                // 启动课件
-                solarSystem.TurnOn();
-                solarSystem.BindGazeManager(false);
-                // 隐藏游标 
-                cursorController.TurnOff();
-                // 启动Bev功能 
-                bevController.listenPort = int.Parse(AppConfig.Instance.GetConfig("Bev_Port"));
-                bevController.outputPath = AppConfig.Instance.GetConfig("Out_Put_Path");
-                bevController.TurnOn();
-                break;
-        }
-
+        solarSystem.TurnOn();
+        cursorController.TurnOn();
         isBusy = false;
     }
 
@@ -165,22 +101,14 @@ public class MainApp : MonoBehaviour
     private bool beginAdjustAnchor = false;
     private void OpenMenu()
     {
-        if (appVersion != VersionList.Teacher)
-            return;
-
         Debug.Log("turn off solar system....");
         solarSystem.BindGazeManager(false);
-
         Vector3 headPosition = Camera.main.transform.position;
         Vector3 gazeDirection = Camera.main.transform.forward;
-
         Vector3 pos = headPosition + gazeDirection * 2;
-
         menuManager.ShowMenu(mainMenu, pos, gazeDirection);
         menuManager.cbMenuHide = OnMenuHide;
-
         inputManager.layerMask = LayerMask.GetMask("UI");
-
     }
 
     private void OnMenuHide()
@@ -195,7 +123,6 @@ public class MainApp : MonoBehaviour
         {
             Debug.Log("Rebind Solar system by close menu!!");
             solarSystem.BindGazeManager(true);
-
         }
     }
 
@@ -203,9 +130,8 @@ public class MainApp : MonoBehaviour
     {
         Debug.Log("Start fit!");
         //BindInput(false);
-        anchorController.cbAnchorControlFinish = AnchorMoveFinish;
+        anchorController.AddCallbackFinish(AnchorMoveFinish) ;
         anchorController.TurnOn();
-
         beginAdjustAnchor = true;
     }
 
@@ -215,7 +141,6 @@ public class MainApp : MonoBehaviour
         //BindInput(true);
         Debug.Log("Rebind Soler system by Move Anchor Finish!!");
         solarSystem.BindGazeManager(true);
-
         beginAdjustAnchor = false;
     }
 

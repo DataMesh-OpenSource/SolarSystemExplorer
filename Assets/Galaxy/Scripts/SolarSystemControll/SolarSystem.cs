@@ -6,6 +6,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DataMesh.AR.Network;
+using MEHoloClient.Proto;
+using DataMesh.AR.UI;
+
 public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
     public Transform selectedContainer;
@@ -24,9 +27,6 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
     Dictionary<string, PlanetObject> planetMap;
     
-
-    //public float 
-
     public bool selected = false;
     public float selectedScaleFactor = 5;
     public static SolarSystem Instance { get; private set;}
@@ -36,6 +36,7 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
     private float originRotY;
     private float messageId;
     private bool initComplete = false;
+    private bool networkError = false;
     private bool extraOperating;
 
     private bool isPlayback;
@@ -84,10 +85,19 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
         }
         else
         {
-            if (cm.hasEnterRoom)
+            if (cm != null)
             {
-                initComplete = true;
-                CursorController.Instance.isBusy = false;
+                if (cm.enterRoomResult == EnterRoomResult.EnterRoomSuccess)
+                {
+                    initComplete = true;
+                    UIManager.Instance.cursorController.isBusy = false;
+                }
+                else if (cm.enterRoomResult != EnterRoomResult.Waiting)
+                {
+                    // 出错了！ 
+                    UIManager.Instance.cursorController.ShowInfo("Init Error! " + cm.errorString);
+                    cm.ReEnterRoom(5);
+                }
             }
         }
     }
@@ -111,7 +121,7 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
         if (connectToServer)
         {
-            SceneObjects roomInitData = new SceneObjects();
+            SceneObject roomInitData = new SceneObject();
             //roomInitData.ShowObjectDic.Add(UniverseObject.OBJECT_TYPE, universeView.uo.CreateShowObject());
             roomInitData.ShowObjectDic.Add(cv_selected.containerType.ToString(), cv_selected.co.CreateShowObject());
             roomInitData.ShowObjectDic.Add(cv_originContainer.containerType.ToString(), cv_originContainer.co.CreateShowObject());
@@ -195,21 +205,29 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
     private bool ignoreSliderChangedEvent = false;
     private float extraOperatingEndTime;
+    private float difference;
+    private float lastValue = 0;
     private void OnSliderRotate(float value)
     {
-        //Debug.Log("拖动进度条:" + value);
-        if(!ignoreSliderChangedEvent)
+        // 给抖动添加缓冲，如果小于某个值则不进行旋转
+
+        difference = value - lastValue;
+        // Debug.Log("Diference ============" + difference);
+        lastValue = value;
+        if (difference > 0.001f || difference < 0.001f)
         {
-            //Debug.Log("来发送");
-            extraOperating = true;
+            // Debug.Log("拖动进度条:" + value);
+            if (!ignoreSliderChangedEvent)
+            {
+                //Debug.Log("来发送");
+                extraOperating = true;
+            }
+
+            SetRotation(new Vector3(0, value * 180, 0));
+
+            currentOperationType = ExtraOperationType.Rotate;
+            extraOperatingEndTime = Time.realtimeSinceStartup + 0.2f;
         }
-        
-
-        currentOperationType = ExtraOperationType.Rotate;
-
-        SetRotation(new Vector3(0, value * 180, 0));
-
-        extraOperatingEndTime = Time.realtimeSinceStartup + 0.2f;
     }
 
     private void OnSliderScale(float value)
@@ -254,11 +272,13 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
     {
         currentOperationType = ExtraOperationType.Unknown;
         extraOperating = true;
+        extraOperatingEndTime = Time.realtimeSinceStartup + 0.2f;
         Debug.Log("navigation start");
     }
 
     void OnNavigationUpdate(Vector3 delta)
     {
+        extraOperatingEndTime = Time.realtimeSinceStartup + 0.2f;
         if(currentOperationType == ExtraOperationType.Rotate)
         {
             //DoExtraRotation(new Vector3(0, delta.x * 2, 0));
@@ -335,8 +355,10 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
             if (sendMsg && connectToServer)
             {
                 MsgEntry me_toSend = sel.CreateMsgEntry();
+                SyncMsg sync = new SyncMsg();
+                sync.MsgEntry.Add(me_toSend);
                 Debug.Log("Send select plaent![" + name + "]");
-                cm.SendMessage(new MsgEntry[1] { me_toSend });
+                cm.SendMessage(sync);
             }
         }
     }
@@ -396,7 +418,10 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
         if (connectToServer )
         {
             //Debug.Log("Send back planet!!!");
-            cm.SendMessage(new MsgEntry[1] { planetObject_notSelected.CreateMsgEntry() });
+
+            SyncMsg sync = new SyncMsg();
+            sync.MsgEntry.Add(new MsgEntry[1] { planetObject_notSelected.CreateMsgEntry() });
+            cm.SendMessage(sync);
         }
         else
         {
@@ -542,18 +567,24 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
     protected void DealMessage(SyncProto proto)
     {
-        MsgEntry[] messages = proto.sync_msg.msg_entry;
-        //Debug.Log("deal message");
+        Google.Protobuf.Collections.RepeatedField<MsgEntry> messages = proto.SyncMsg.MsgEntry;
+
         if (messages == null)
             return;
         
-        MsgEntryLocal[] messages_local = new MsgEntryLocal[messages.Length];
-        for(int i =0;i<messages.Length;i++)
+        MsgEntryLocal[] messages_local = new MsgEntryLocal[messages.Count];
+        for(int i =0;i<messages.Count;i++)
         {
-            messages_local[i] = new MsgEntryLocal(messages[i].show_id, messages[i].obj_type, messages[i].pr);
+            float[] Pr_message = new float[messages[i].Pr.Count];
+            for (int prI = 0; prI < messages[i].Pr.Count; prI++)
+            {
+                Pr_message[prI] = messages[i].Pr[prI];
+            }
+
+            messages_local[i] = new MsgEntryLocal(messages[i].ShowId, messages[i].Info.ObjType, Pr_message);
             
         }
-        DealMsgEntries(messages_local, proto.sync_msg.is_full);
+        DealMsgEntries(messages_local, proto.SyncMsg.IsFull);
     }
 
     public void SetContainerStatus(MsgEntryLocal me)
@@ -638,13 +669,16 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
         {
             if (extraOperating)
             {
-                cm.SendMessage(new MsgEntry[1] { cv_originContainer.co.CreateMsgEntry() });
+                SyncMsg sync = new SyncMsg();
+                sync.MsgEntry.Add(new MsgEntry[1] { cv_originContainer.co.CreateMsgEntry() });
+                cm.SendMessage(sync);
+
                 if (Time.realtimeSinceStartup > extraOperatingEndTime)
                 {
                     extraOperating = false;
                 }
             }
-            yield return new WaitForSecondsRealtime(0.1f);
+            yield return new WaitForSecondsRealtime(0.03f);
         }
     }
 

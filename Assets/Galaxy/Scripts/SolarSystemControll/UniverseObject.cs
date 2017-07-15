@@ -1,4 +1,5 @@
 ﻿using MEHoloClient.Entities;
+using MEHoloClient.Proto;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -54,16 +55,23 @@ public class UniverseObject : DefaultObjectObserver {
     {
         UpdateData();
         this.id = this.GetObjectType();
-        MsgEntry entry = new MsgEntry(OP_TYPE.UPD, id, true, info, null, null);
-        entry.obj_type = GetObjectType();
+        //MsgEntry entry = new MsgEntry(OP_TYPE.UPD, id, true, info, null, null);
+        MsgEntry entry = new MsgEntry();
+        entry.OpType = MsgEntry.Types.OP_TYPE.Upd;
+        entry.ShowId = id;
+        entry.Pr.Add(info);
+        entry.Info.ObjType = GetObjectType();
         return entry;
     }
 
     public ShowObject CreateShowObject()
     {
         UpdateData();
-        ShowObject so = new ShowObject(this.GetObjectType(), true, info, info);
-        so.obj_type = this.GetObjectType();
+        // ShowObject so = new ShowObject(this.GetObjectType(), true, info, info);
+        ShowObject so = new ShowObject();
+        so.ShowId = this.GetObjectType();
+        so.Pr = info;
+        so.ObjInfo.ObjType = this.GetObjectType();
         return so;
     }
 }
