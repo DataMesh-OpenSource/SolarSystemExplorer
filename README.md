@@ -20,7 +20,7 @@ In this episode of I'm Future (a popular TV show in China), we helped Microsoft 
 
 ### Hardware Setup
 
-See the [Rig Assembly Guide](docs/rig-assembly.md)
+See the [Rig Assembly Guide](Docs/rig-assembly.md)
 
 ### Software Setup
 
