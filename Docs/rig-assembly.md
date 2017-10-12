@@ -78,8 +78,9 @@ Below is a list of recommended requirements for the workstation:
 |       **GPU**        |     NVIDIA GeForce GTX 1070 or above     | <ul><li>GPU needs to support NVENC (Hardware-Accelerated Video Encoding) encoding APIs for H.264.</li><li>AMD GPUs currently are not supported.</li></ul> |
 |    **Mainboard**     |       Support M.2 SSD or PCI-E SSD       |                                          |
 |      **Memory**      |     16GB dual-channel DDR4 or above      |                                          |
-|    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li><li>You can use SATA SSD if you don't need to record 4K videos.</li></ul> |
 | **Operating system** |              Windows 10 x64              | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li></ul> |
+|    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li><li>You can use SATA SSD if you don't need to record 4K videos.</li></ul> |
+|    **Capture Card**     |        PCIE Video Capture Card         | <ul><li>Recommend [Blackmagic Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k).</li><li>For other possible choices, see [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView#tested-capture-cards)</li></ul> |
 
 > Note 1: Visit [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder) to see the NVIDIA GPU support matrix.
 
@@ -94,7 +95,8 @@ Workstation access steps are as follows:
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
-1. Connect the camera's **HDMI Output Port** to the **Input Port** of the capture card of the workstation, with a **HDMI to Mini-HDMI cable**.
+1. Install the **Capture Card** to the PCIE slot of the Workstation.
+2. Connect the camera's **HDMI Output Port** to the **Input Port** of the capture card of the workstation, with a **HDMI to Mini-HDMI cable**.
 2. Connect the **Micro USB port** of HoloLens to one of the USB3.0 port on the workstation with a **Micro USB to USB cable**. (This is for the convenience of USB debugging and charging of HoloLens, and thus is optional) .
 3. Connect the workstation to the **LAN Port** of the **Wireless Router** using a Lan cable.
 4. Use an **HDMI to HDMI cable** to attach the **Output Port** of the capture card of the workstation to an external display or any other campatible screens.
