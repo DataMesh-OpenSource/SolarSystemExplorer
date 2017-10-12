@@ -41,19 +41,19 @@ The purpose of the assembly is to securely secure the complete set of equipment 
 Depending on the requirements of the working site and the choice of equipment, the ways of assembly and connection may vary. If you want to use non-recommended equipment, please make sure that you know how to connect them together.
 Below is a typical example of the assembly.
 
-|         item          | Function                                 | specification                       |
-| :-------------------: | :--------------------------------------- | :---------------------------------- |
-|  **HoloLens stand**   | Fix HoloLens firmly                      | Aluminium stand offered by DataMesh |
-|  **Digital camera**   | Hot shoe interface for the the convenience of connecting HoloLens | Sony ICLE-6500 + EPZ 16-50          |
-|    **Tripod/head**    | Support camera and HoloLens firmly       |                                     |
-| **Other accessories** | Camera can connect to HoloLens through hot shoe interface | Screws for hot shoe switch          |
+|         item          | Function                                 | specification                            |
+| :-------------------: | :--------------------------------------- | :--------------------------------------- |
+|  **HoloLens stand**   | Fix HoloLens firmly                      | Aluminium stand offered by DataMesh      |
+|  **Digital camera**   | Hot shoe interface for the the convenience of connecting HoloLens | One possible choice is the Sony ICLE-6500 + EPZ 16-50 |
+|    **Tripod/head**    | Support camera and HoloLens firmly       |                                          |
+| **Other accessories** | Camera can connect to HoloLens through hot shoe interface | Screws for hot shoe switch               |
 
 
 The assembly processes of Rig Suite depicted in the picture below, and the steps are as follows:
 
 1. Fix HoloLens on the dedicated **Aluminum HoloLens Bracket**.
 2. Add the **Hotshoe Adapter** to the HoloLens mount in Step 1 (to later in Step 5, connect the HoloLens mount to the camera).
-3. Connect the **Camera** to the **Tripod**. 
+3. Connect the **Camera** to the **Tripod**.
 4. Fix the **Hotshoe Fastener** to the **Camera**.
 5. Finally, connect the **HoloLens Mount** and the **Camera** by connecting the **Hotshoe Adapter** and the  **Hotshoe Fastener**.
 
@@ -61,6 +61,8 @@ The assembly processes of Rig Suite depicted in the picture below, and the steps
 <img src="https://cloud.githubusercontent.com/assets/17921380/26623976/0ef5370a-4622-11e7-8cdd-0e59c8ceebee.png" width="160">
 <p align="center"><em>RIG Assembly Diagram</em></p>
 </p>
+
+> If you are looking for a shopping list of the Rig parts, here is one possible choice in the [Rig Shopping List](#rig-shopping-list).
 
 
 ## Workstation Installation
@@ -76,8 +78,8 @@ Below is a list of recommended requirements for the workstation:
 |       **GPU**        |     NVIDIA GeForce GTX 1070 or above     | <ul><li>GPU needs to support NVENC (Hardware-Accelerated Video Encoding) encoding APIs for H.264.</li><li>AMD GPUs currently are not supported.</li></ul> |
 |    **Mainboard**     |       Support M.2 SSD or PCI-E SSD       |                                          |
 |      **Memory**      |     16GB dual-channel DDR4 or above      |                                          |
-|    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li></ul> |
-| **Operating system** |        Windows 10 64bit or above         | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li></ul> |
+|    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li><li>You can use SATA SSD if you don't need to record 4K videos.</li></ul> |
+| **Operating system** |              Windows 10 x64              | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li></ul> |
 
 > Note 1: Visit [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder) to see the NVIDIA GPU support matrix.
 
@@ -92,8 +94,19 @@ Workstation access steps are as follows:
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
-1. Connect the camera's **HDMI Output Port** to the **Input Port ** of the capture card of the workstation, with a **HDMI to Mini-HDMI cable**.
+1. Connect the camera's **HDMI Output Port** to the **Input Port** of the capture card of the workstation, with a **HDMI to Mini-HDMI cable**.
 2. Connect the **Micro USB port** of HoloLens to one of the USB3.0 port on the workstation with a **Micro USB to USB cable**. (This is for the convenience of USB debugging and charging of HoloLens, and thus is optional) .
 3. Connect the workstation to the **LAN Port** of the **Wireless Router** using a Lan cable.
 4. Use an **HDMI to HDMI cable** to attach the **Output Port** of the capture card of the workstation to an external display or any other campatible screens.
 5. Let the HoloLens join the local wireless network and make sure the HoloLens and the workstation are in the same vlan.
+
+## Appendix
+### Rig Shopping List
+
+|        item        | Buy Link                                 | Comments                                 |
+| :----------------: | :--------------------------------------- | :--------------------------------------- |
+| **HoloLens stand** | [DataMesh Shop](https://shop.datamesh.com/) | Aluminium stand offered by DataMesh      |
+| **Digital camera** | [Amazon Link](https://www.amazon.com/gp/product/B01M646CFU) | Extra Battery at [Amazon Link](https://www.amazon.com/gp/product/B01HFOJUCW/) |
+|  **Tripod/head**   | [Amazon Link](https://www.amazon.com/dp/B00139W0XM) |                                          |
+
+> For other possible hardware choices, see the [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView) from Microsoft
