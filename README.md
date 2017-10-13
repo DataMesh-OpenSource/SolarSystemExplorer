@@ -29,7 +29,7 @@ Here is a video tutorial to help you set up Mixed Reality capture in 10 minutes:
 
 ### Software Setup
 
-
+Please see the [Software Setup Guide](Docs/software-setup.md) for detailed instructions.
 
 ### Configurations
 
