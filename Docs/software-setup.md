@@ -26,6 +26,14 @@ Go to [NVIDIA Driver Search Page](http://www.nvidia.com/Download/index.aspx) to 
 
 > For now (10/13/2017), the newest version for GeForce GTX cards is 387.92 for Windows 10 64-bit. Here is the direct [download link](http://us.download.nvidia.com/Windows/387.92/387.92-desktop-win10-64bit-international-whql.exe).
 
+### Test Capture Card
+
+To make sure the capture card and its drivers are properly installed, after restart you can use the **Blackmagic Media Express** software from the Windows Start Menu to test. If ok, there would be a live stream displayed under the "Log and Capture" tab.
+
+<img src="https://user-images.githubusercontent.com/27760601/31533366-68a86ee0-b024-11e7-8a9f-d99a283089c5.jpg" width="600">
+<p align="center"><em>BlackMagic Media Express</em></p>
+</p>
+
 ## Develop Environment
 
 This step is optional if just want to try SolarSystemExplorer instead of compiling it or creating your own app. You can skip this step and download and install the compiled apps. However, we **do recommend you to install the Windows 10 SDK** (which can be selected to install during Visual Studio installation) to enable debugging by connecting to your HoloLens. If you only want to install Windows 10 SDK without installing Visual Studio, download and install from [here](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk).
@@ -51,13 +59,21 @@ What you need is Visual Studio 2015 Community V3 or later. Currently we recommen
 
 > **Note 2:** Make sure you check the Windows 10 SDK during the installation, otherwise you can not connect to HoloLens to debug your applications.
 
-## How It Works
+## MeshExpert Software
+
+To understand how the MeshExpert Live! works and what software to install, see the drawing below. There are essential three major software to install or run:
+
+* **MeshExpert Installer: ** It includes the **MeshExpert Server** and **MeshExpert Center**. The Center is for: 1) manage service status (e.g. start/restart server) and license, 2) add and manage HoloLens, 3) upload and install apps to HoloLens and app configuration management , 4) other extended functionalities like connecting to DataMesh cloud service. The Server is responsible to cross-device collaboration by broadcasting messages among PC, HoloLens, Surface, etc.
+* **DataMesh LiveAgent:** It is running on HoloLens on the Rig. It is constantly sending anchor information to the App you are running (e.g. the SolarSystemExplorer PC app) for the holographic video synthesis.
+* **Your App**: Take SolarSystemExplorer as an example. You can build your app in Unity and compile it against different platforms. Then you will get the PC version, HoloLens version, and the Surface version. Through collaboration mechanism provided by MeshExpert Server, they can share the same MR experience. For example, during MR video capturing, you can control the movements from a Surface or another HoloLens.
+
+
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26623110/4165487c-461f-11e7-8182-a06471b19726.png" width="500">
+<img src="https://user-images.githubusercontent.com/27760601/31540251-bec530b0-b03d-11e7-8018-8a0934bb4b5d.png" width="1024">
 </p>
 
-MeshExpert Live! contains two main parts: collaboration, and live streaming. The collaboration within multiple devices are coordinated by **MeshExpert Server** which broadcasts messages through a simple protocol. For live video streaming, the App running on the Workstation takes the real-time anchor from the **MeshExpert LiveAgent** running on HoloLens on the Rig, and synthesizes the holographic videos. The live video stream can output to screens through HDMI interface or be captured to video files.
+MeshExpert Live! contains two main parts: collaboration, and live streaming. The collaboration within multiple devices are coordinated by **MeshExpert Server** which broadcasts messages using a simple protocol. For live video streaming, the App running on the Workstation takes the real-time anchor from the **MeshExpert LiveAgent** running on HoloLens on the Rig, and synthesizes the holographic videos. The live video stream can output to screens through HDMI interface or be captured to video files.
 
 ## RIG Installation
 
