@@ -65,14 +65,15 @@ What you need is Visual Studio 2015 Community V3 or later. Currently we recommen
 
 To understand how the MeshExpert Live! works and what software to install, see the drawing below. There are essential three major software to install or run:
 
-* **MeshExpert Installer: ** It includes the **MeshExpert Server** and **MeshExpert Center**. The Center is for: 1) manage service status (e.g. start/restart server) and license, 2) add and manage HoloLens, 3) upload and install apps to HoloLens and app configuration management , 4) other extended functionalities like connecting to DataMesh cloud service. The Server is responsible to cross-device collaboration by broadcasting messages among PC, HoloLens, Surface, etc.
+* **MeshExpert Installer:** It includes the **MeshExpert Server** and **MeshExpert Center**. The Center is for: 1) manage service status (e.g. start/restart server) and license, 2) add and manage HoloLens, 3) upload and install apps to HoloLens and app configuration management , 4) other extended functionalities like connecting to DataMesh cloud service. The Server is responsible to cross-device collaboration by broadcasting messages among PC, HoloLens, Surface, etc.
 * **DataMesh LiveAgent:** It is running on HoloLens on the Rig. It is constantly sending anchor information to the App you are running (e.g. the SolarSystemExplorer PC app) for the holographic video synthesis.
 * **Your App**: Take SolarSystemExplorer as an example. You can build your app in Unity and compile it against different platforms. Then you will get the PC version, HoloLens version, and the Surface version. Through collaboration mechanism provided by MeshExpert Server, they can share the same MR experience. For example, during MR video capturing, you can control the movements from a Surface or another HoloLens.
 
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/27760601/31540251-bec530b0-b03d-11e7-8018-8a0934bb4b5d.png" width="1024">
+<img src="https://user-images.githubusercontent.com/27760601/31540251-bec530b0-b03d-11e7-8018-8a0934bb4b5d.png" width="1024"><p align="center"><em>Software Stack</em></p>
+
 </p>
 
 MeshExpert Live! contains two main parts: collaboration, and live streaming. The collaboration within multiple devices are coordinated by **MeshExpert Server** which broadcasts messages using a simple protocol. For live video streaming, the App running on the Workstation takes the real-time anchor from the **MeshExpert LiveAgent** running on HoloLens on the Rig, and synthesizes the holographic videos. The live video stream can output to screens through HDMI interface or be captured to video files.
