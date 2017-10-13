@@ -18,7 +18,7 @@ For this guide, we use the **BlackMagic Capture Card** and **NVIDIA GeForce GTX 
 
 Go to [BlackMagic Download Page](https://www.blackmagicdesign.com/support/family/capture-and-playback) to checkout the latest driver version for the capture card. The latest version is always preferred. If you have any trouble getting the video feed, one of the most important trouble shooting step is to update the driver to the newest.
 
-> For now (10/13/2017), the newest version is 10.9.7 for Windows. Here is the direct [download link]().
+> For now (10/13/2017), the newest version is 10.9.7 for Windows. Here is the direct [download link](https://meshexpert-us.s3.amazonaws.com/Blackmagic_Desktop_Video_Windows_10.9.7.zip).
 
 ### Driver for NVIDIA GeForce Video Card
 
@@ -41,7 +41,15 @@ Download and run the *Unity Download Assistant* (For Unity 5.5.1, you can use [t
 <p align="center"><em>Unity Installation</em></p>
 </p>
 
-> **Note:** You can download all Unity Versions [here](https://unity3d.com/get-unity/download/archive). For detailed installation and usage of Unity, check out the [Unity Documentation](https://docs.unity3d.com/Manual/index.html).
+> **Note:** You can search and download Unity Versions [here](https://unity3d.com/get-unity/download/archive). For detailed installation and usage of Unity, check out the [Unity Documentation](https://docs.unity3d.com/Manual/index.html).
+
+### Visual Studio
+
+What you need is Visual Studio 2015 Community V3 or later. Currently we recommend vs2015. For online installation of vs2015 V3, use [this installer](https://meshexpert-us.s3.amazonaws.com/en_visual_studio_community_2015_with_update_3_x86_x64_web_installer_8922963.exe).
+
+> **Note 1:** For complete ISO installation file or other Visual Studio versions, go to [Visual Studio Site](https://my.visualstudio.com/Downloads). You can download community version with a free subscription.
+
+> **Note 2:** Make sure you check the Windows 10 SDK during the installation, otherwise you can not connect to HoloLens to debug your applications.
 
 ## How It Works
 
