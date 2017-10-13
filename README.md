@@ -10,7 +10,7 @@ SolarSystemExplorer, powered by DataMesh, is an amazing showcase of Mixed Realit
 
 TV Show: I'm Future
 
-[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31425999-26923428-ae94-11e7-9175-55d408a350cd.png)](https://www.youtube.com/watch?v=XJ16zSiWeKU "SolarSystemExplorer On TV Show")
+[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31527189-2a89026c-affe-11e7-8b93-5147817d8862.png)](https://www.youtube.com/watch?v=XJ16zSiWeKU "SolarSystemExplorer On TV Show")
 
 In this episode of I'm Future (a popular TV show in China), we helped Microsoft China to create free movement HoloLens Spectator View using MeshExpert Live! and Steadicam. The system is integrated seamlessly with existing broadcasting hardware. It's a pity there's only a few mins left in the final cut. This might be the first in the world to use HoloLens in such way in real TV program.
 
@@ -20,7 +20,12 @@ In this episode of I'm Future (a popular TV show in China), we helped Microsoft 
 
 ### Hardware Setup
 
-See the [Rig Assembly Guide](Docs/rig-assembly.md)
+To set up hardware for MeshExpert Live! to run SolarSystemExplorer, please see the [Rig Assembly Guide](Docs/rig-assembly.md) for hardware specifications, hardware shopping list, and detailed assembly instructions.
+
+Here is a video tutorial to help you set up Mixed Reality capture in 10 minutes:
+
+[![DataMesh MeshExpert Live! Hardware Assembly Guide](https://user-images.githubusercontent.com/27760601/31527190-2abae458-affe-11e7-8044-227a1fecb06e.png)](https://www.youtube.com/watch?v=Yx6EKH_QjrU "DataMesh MeshExpert Live! Hardware Assembly Guide")
+
 
 ### Software Setup
 
