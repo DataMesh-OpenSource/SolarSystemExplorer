@@ -30,6 +30,8 @@ Go to [NVIDIA Driver Search Page](http://www.nvidia.com/Download/index.aspx) to 
 
 To make sure the capture card and its drivers are properly installed, after restart you can use the **Blackmagic Media Express** software from the Windows Start Menu to test. If ok, there would be a live stream displayed under the "Log and Capture" tab.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/27760601/31533366-68a86ee0-b024-11e7-8a9f-d99a283089c5.jpg" width="600">
 <p align="center"><em>BlackMagic Media Express</em></p>
 </p>
