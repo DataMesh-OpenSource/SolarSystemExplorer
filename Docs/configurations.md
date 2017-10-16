@@ -4,7 +4,7 @@ After you set up the Rig and install all the drivers and software, you can now m
 
 ## Network Environment
 
-### WiFi Router and Firewalls
+### WiFi Router
 
 Network is the most error-prone part, and most of the problems we encountered are originated from network issues.
 
@@ -12,7 +12,10 @@ Therefore, we recommend you to use a dedicate Wi-Fi router for MeshExpert Live! 
 
 * MeshExpert Server uses TCP port 8848 and SolarSystemExplorer uses TCP port 8099 and UDP port 8098. Some corp network may intercept the traffic or block the ports.
 * If you are using a separate WiFi, 5G is preferred over 2.4G band frequency. We encountered serious signal interference using 2.4G WiFi at Expos.
-* We have already added several Firewall exceptions for MeshExpert Server and SolarSystemExplorer during the installation of MeshExpert Installer. In case you want to customize the ports. Use the following CMD commands (requires a little bit modification) as Administrator to add your own Windows firewall exceptions on the Workstation. Or you can choose to shutdown the firewall completely for testing.
+
+### Firewalls
+
+We have already added several Firewall exceptions for MeshExpert Server and SolarSystemExplorer during the installation of MeshExpert Installer. In case you want to customize the ports. Use the following CMD commands (requires a little bit modification) as Administrator to add your own Windows firewall exceptions on the Workstation. Or you can choose to shutdown the firewall completely for testing.
 
 ```
 netsh advfirewall firewall add rule name="MeshExpert: meshexpert-server incoming" dir=in action=allow program="C:\Program Files\MeshExpert\server\MeshExpert-Server.exe" enable=yes
@@ -22,7 +25,7 @@ netsh advfirewall firewall add rule name="MeshExpert: Allow TCP 8099 for PC App"
 netsh advfirewall firewall add rule name="MeshExpert: Allow UDP 8098 for PC App" protocol=UDP dir=in localport=8098 action=allow
 ```
 
-### IP Settings
+## Server IP Settings
 
 The default MeshExpert Server IP shipped with LiveAgent and SolarSystemExplorer is **192.168.8.250**. If possible, you can set your Workstation's IP to **192.168.8.250** which will save you some time setting server IP for the LiveAgent and the Apps.
 
@@ -38,7 +41,9 @@ If you used MeshExpert Center to install the LiveAgent to the HoloLens on the Ri
 <p align="center"><em>Check the Server IP</em></p>
 </p>
 
-Note that if the Workstation joint multiple networks, it will list all possible IPs, but only the default one displayed here will be used. If it is clearly not your IP for the Workstation, you can follow the steps below to reset the server IP for LiveAgent. (Once you added your HoloLens to MeshExpert Center and installed the LiveAgent, you can now choose and modify the server IP for LiveAgent.)
+Note that if the Workstation joint multiple networks, it will list all possible IPs, but only the default one displayed here will be used. If it is clearly not your IP for the Workstation, you can follow the steps below to reset the server IP for LiveAgent. (Once you added your HoloLens to MeshExpert Center and installed the LiveAgent, you can now choose and modify the server IP for LiveAgent in MeshExpert Center.)
+
+> You have to install the Windows 10 SDK to make this work. If you have not done this, see [here](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/software-setup.md#develop-environment).
 
 <p align="center">
 
@@ -52,6 +57,18 @@ Click the **Device** tab, and choose your HoloLens from the list. Then select th
 
 <img src="https://user-images.githubusercontent.com/27760601/31602233-f791b334-b28e-11e7-8895-df9a4c1a39c2.png" width="800">
 <p align="center"><em>Choose IP to Set</em></p>
+</p>
+
+Manual setting server IP for LiveAgent is also possible. It involves using Windows Device Portal. You can either connect your HoloLens to PC USB port or access HoloLens using WiFi.
+
+If you use USB connection, visit http://127.0.0.1:10080 at your Edge Browser or Chrome (Ignore Certificate Error if needed). If you use WiFi connection, visit http://your_hololens_ip instead. See [Using the Windows Device Portal](https://developer.microsoft.com/en-us/windows/mixed-reality/using_the_windows_device_portal).
+
+Follow the steps below to manually do the setting.
+
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/27760601/31606237-1c45dd34-b29b-11e7-814c-7fde3b94f322.png" width="1024">
+<p align="center"><em>Manually Change Server IP for LiveAgent</em></p>
 </p>
 
 #### Set Server IP for PC App
