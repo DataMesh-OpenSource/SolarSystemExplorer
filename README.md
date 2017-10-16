@@ -33,13 +33,7 @@ Please see the [Software Setup Guide](Docs/software-setup.md) for detailed instr
 
 ### Configurations
 
-#### Network Settings
-
-#### Connect your HoloLens
-
-#### Install SolarSystemExplorer App
-
-
+See the [Configuration Guide](Docs/configurations.md) for configuring Network and IP addresses.
 
 ### Run It!
 

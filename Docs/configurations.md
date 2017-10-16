@@ -1,3 +1,5 @@
+# Configuration Guide
+
 ## Overview
 
 After you set up the Rig and install all the drivers and software, you can now move on to the configurations. The configurations can be done manually by a series of steps. However, with the help of MeshExpert Center, this process is made easy. You can now configure and run with a few clicks.
@@ -29,7 +31,7 @@ netsh advfirewall firewall add rule name="MeshExpert: Allow UDP 8098 for PC App"
 
 The default MeshExpert Server IP shipped with LiveAgent and SolarSystemExplorer is **192.168.8.250**. If possible, you can set your Workstation's IP to **192.168.8.250** which will save you some time setting server IP for the LiveAgent and the Apps.
 
-Before you start, please read the [MeshExpert Center User Guide]() to be familiar with the main features and operations.
+Before you start, please read the [MeshExpert Center User Guide](Docs/center-user-guide.md) to be familiar with the main features and operations.
 
 #### Set Server IP for DataMesh LiveAgent
 
