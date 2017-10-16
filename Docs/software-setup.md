@@ -91,3 +91,31 @@ Download the latest version from [here](https://www.datamesh.com/downloaditem-li
 For demo, you can just download the [compiled apps](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/releases) and move on to the next section to configure and run.
 
 If you are a developer and dive deeper, you can get the source code from this [Github Repository](https://github.com/DataMesh-OpenSource/SolarSystemExplorer) and follow the step-by-step [tutorials](https://github.com/DataMesh-OpenSource/SolarSystemExplorer#make-your-own-app) to build your first app with MeshExpert and then move on to the full SolarSystemExplorer app.
+
+#### Install HoloLens Version
+
+
+
+#### Install PC Version
+
+You can download and run PC version directly. No installation needed.
+
+#### Install Surface Version (Optional)
+
+This is optional if you do not need to use Surface to control the interactions.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31604249-51b0dd9e-b295-11e7-98e3-6d0fb4bccf0a.png" width="800">
+
+<p align="center"><em>Install Surface Version</em></p>
+
+</p>
+
+Click to run the **Add-AppDevPackage.ps1** script. You will be prompted to confirm and continue.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31604419-cc97b438-b295-11e7-83a6-d8d5ff189101.png" width="600">
+
+<p align="center"><em>Surface App Installation Process</em></p>
+
+</p>
