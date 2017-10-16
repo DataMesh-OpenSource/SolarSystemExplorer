@@ -1,3 +1,5 @@
+# Software Setup Guide
+
 ## Overview
 
 MeshExpert Live! requires hardware drivers and MeshExpert software to be installed. This guide will show you step-by-step how to to this.
