@@ -84,9 +84,67 @@ To install the MeshExpert Server and MeshExpert Center, download the [MeshExpert
 
 Upon finish, you will have **MeshExpert Center** icon on your desktop and start menu under DataMesh entry.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31642349-0bb3745e-b31d-11e7-90bb-e6a56d67846d.png" width="800">
+
+<p align="center"><em>MeshExpert Center</em></p>
+
+</p>
+
+You need an online subscription or an offline license to get started. You can apply a trial license at https://license.datamesh.com. Online subscription is preferred. If you do need offline license or customized licensing options, you can send an email to service@datamesh.com. See more at the [Account and Purchase](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/center-user-guide.md#account-and-purchase).
+
+Also see  [MeshExpert Center User Guide](center-user-guide.md) to know more about MeshExpert Center.
+
 ### DataMesh LiveAgent
 
-Download the latest version from [here](https://www.datamesh.com/downloaditem-liveagent). To install it to the HoloLens on the Rig, you can either use the MeshExpert Center to do easy installation and configuration, or use the Windows Device Portal to do it manually.
+Download the latest version from [here](https://www.datamesh.com/downloaditem-liveagent). To install it to the HoloLens on the Rig, you can either use the MeshExpert Center to do easy installation and configuration, or use the Windows Device Portal to do it manually. Here we only install the LiveAgent app, and the configurations will be elaborated later in the [Configuration Guide](configurations.md).
+
+#### Upload LiveAgent App
+
+Go to **My Apps** tab. Choose **App Package** and its **Dependency**. Then click **UPLOAD**. See below.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31642846-da7cee12-b31f-11e7-85f8-d053dc122c3b.png" width="800">
+
+<p align="center"><em>Upload App</em></p>
+
+</p>
+
+You will see the unloaded packages at the bottom of **My Apps** tab.
+
+#### Add Your HoloLens
+
+To use MeshExpert Center to install the LiveAgent to a HoloLens, you need to first add you HoloLens to MeshExpert Center. [See how?](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/center-user-guide.md#devices).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31643187-aabc62aa-b321-11e7-952b-ab14dc56bccd.png" width="800">
+
+<p align="center"><em>Add HoloLens<em></p>
+
+</p>
+
+#### Install App to HoloLens
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31642924-49248e74-b320-11e7-892b-1454665725ab.png" width="800">
+
+<p align="center"><em>Install App</em></p>
+
+</p>
+
+1. Go to the **Devices** tab.
+2. Under the **Device Management**, choose the HoloLens you are about to install LiveAgent to.
+3. Select the **DataMeshLiveAgent** under **Application Manager**.
+4. Click **INSTALL**.
+
+You can use **START**, **REMOVE**, **CONFIG**  to manage status of the LiveAgent here. If you click **START**, you will see it appearing under the **Running Application**. See below.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/31643030-d0d585f8-b320-11e7-8ae4-e454015f5981.png" width="800">
+
+<p align="center"><em>App Status</em></p>
+
+</p>
 
 ### SolarSystemExplorer App
 
@@ -94,13 +152,13 @@ For demo, you can just download the [compiled apps](https://github.com/DataMesh-
 
 If you are a developer and dive deeper, you can get the source code from this [Github Repository](https://github.com/DataMesh-OpenSource/SolarSystemExplorer) and follow the step-by-step [tutorials](https://github.com/DataMesh-OpenSource/SolarSystemExplorer#make-your-own-app) to build your first app with MeshExpert and then move on to the full SolarSystemExplorer app.
 
-#### Install HoloLens Version
-
-
-
 #### Install PC Version
 
 You can download and run PC version directly. No installation needed.
+
+#### Install HoloLens Version
+
+You can install the SolarSystemExplorer app to HoloLens just like LiveAgent App. You upload the app, choose your HoloLens, and select the app and install. This is actually optional for recording third-person view of the Holograms. However, you can use another HoloLens (besides the HoloLens on the Rig) to interact and collaborate with other devices.
 
 #### Install Surface Version (Optional)
 
