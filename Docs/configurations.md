@@ -83,6 +83,10 @@ For PC app, go to **SolarSystemExplorer_Data\StreamingAssets**, and change **Ser
 <p align="center"><em>Change Server IP for PC App</em></p>
 </p>
 
+#### Set Server IP for HoloLens App (Optional)
+
+This is optional if you do not need to use a separate HoloLens (other than the one on the Rig) to interact. The configuration steps are the same as setting Server IP for LiveAgent. Essentially, they are all HoloLens Apps, and can be managed by MeshExpert Center.
+
 #### Set Server IP for Surface App (Optional)
 
 This is optional if you do not need to use Surface to control the interactions.

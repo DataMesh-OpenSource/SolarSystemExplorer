@@ -71,7 +71,23 @@ See the [Configuration Guide](Docs/configurations.md) for configuring Network an
 
 ### Run It!
 
+Open the PC app and run!
 
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/27760601/31645953-6a856122-b331-11e7-8f68-19f8359c13e6.jpg" width="800">
+<p align="center"><em>Run SolarSystemExplorer</em></p>
+</p>
+
+> A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time. The control buttons are at the downer bar. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under **"C:/HologramCapture/SolarSystemExplorer/"**. There are also a vertical and a horizontal zoom-in and zoom-out bars for you to control your scenes. Other options are for you to explore.
+
+To get started, click **"Connect HoloLens Spectator View"**. If the HoloLens on the Rig is connected to the PC app a green line of **HoloLens connected** will show up. Otherwise, **HoloLens offline** will show up indicating a failed network connection between the PC app on the Workstation and the LiveAgent on the HoloLens of the Rig. 
+
+Then click **"Start Follow"** to collaborate with other devices like Surface and another HoloLens. The scene on HoloLens and Workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices and share the same experience.
+
+## Trouble Shooting
+
+If have any trouble making things work, see the [Trouble Shooting Guide](Docs/trouble-shooting.md) to see if you can find a solution. If no luck, you can always contact us at service@datamesh.com for support. We will try our best to help.
 
 ## Make Your Own App
 
