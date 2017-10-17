@@ -8,18 +8,47 @@ SolarSystemExplorer, powered by [DataMesh](https://www.datamesh.com), is an amaz
 
 ## Introduction
 
+### Highlights and Features
 
+SolarSystemExplorer is a demo app for MeshExpert Live! which comes with many highlighted features:
 
-<p align="center">[
+* **The World's First Commercialized 4K Mixed Reality Capture Solution**
 
-![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31527189-2a89026c-affe-11e7-8b93-5147817d8862.png)](https://www.youtube.com/watch?v=XJ16zSiWeKU "SolarSystemExplorer On TV Show")
+  > The Mixed Reality capturing is made easy. From common hardware to broadcasting-grade equipment, MeshExpert Live! provides seamless integration. The produced video content is stable, editable, and of industrial quality.
 
+* **Significantly Shorten the Development Cycle of Mixed Reality Applications**
+
+  > With the support of opensource [METoolkit](https://github.com/DataMesh-OpenSource/METoolkit), creation of Mixed Reality apps becomes easy and fast.
+  >
+
+* **Better Collaboration and Shared Mixed Reality Experience**
+
+  > Support up to 1000 users collaborate with different devices including HoloLens, PC, Surface, Smart Phones, and VR headsets etc. and to remotely watch the live show all sharing the same experience.
+
+[Read More...](https://www.datamesh.com/solution/meshexpert-live)
+
+### Gallery & Demo
+
+####  On TV Show
+
+[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31527189-2a89026c-affe-11e7-8b93-5147817d8862.png)](https://www.youtube.com/watch?v=XJ16zSiWeKU "SolarSystemExplorer On TV Show")
 <p align="center"><em>SolarSystemExplorer On TV Show</em></p>
+
+> In this episode of I'm Future (a popular TV show in China), we helped Microsoft China to create free movement HoloLens Spectator View using MeshExpert Live! and Steadicam. The system is integrated seamlessly with existing broadcasting hardware. It's a pity there's only a few mins left in the final cut. This might be the first in the world to use HoloLens in such way in real TV program.
+
+####  Hardware Gallery
+
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/27760601/31645265-bc8b232a-b32d-11e7-9580-8ebc2893ab5a.png" width="800">
 </p>
 
-In this episode of I'm Future (a popular TV show in China), we helped Microsoft China to create free movement HoloLens Spectator View using MeshExpert Live! and Steadicam. The system is integrated seamlessly with existing broadcasting hardware. It's a pity there's only a few mins left in the final cut. This might be the first in the world to use HoloLens in such way in real TV program.
+####  Collection of Soluations & Apps
 
+[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31645509-02c59f86-b32f-11e7-93e2-af0bfd13d31f.png)](https://www.youtube.com/watch?v=bdmRgSINeu8 "A collection of DataMesh Mixed Reality Solutions and Apps, Video Captured By MeshExpert Live!")
+<p align="center"><em>Collections Captured by MeshExpert Live!</em></p>
 
+> All these videos are recorded by our MeshExpert Live! 4K Moving-Camera Spectator View Capture Solution, a stable MR capture solution that you can easily set up in 10 minutes.
 
 ## Run SolarSystemExplorer 
 
