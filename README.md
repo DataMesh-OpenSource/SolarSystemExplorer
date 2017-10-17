@@ -75,7 +75,7 @@ Open the PC app and run!
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/31645953-6a856122-b331-11e7-8f68-19f8359c13e6.jpg" width="800">
+<img src="https://user-images.githubusercontent.com/27760601/31645953-6a856122-b331-11e7-8f68-19f8359c13e6.jpg" width="700">
 <p align="center"><em>Run SolarSystemExplorer</em></p>
 </p>
 
@@ -85,11 +85,39 @@ To get started, click **"Connect HoloLens Spectator View"**. If the HoloLens on 
 
 Then click **"Start Follow"** to collaborate with other devices like Surface and another HoloLens. The scene on HoloLens and Workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices and share the same experience.
 
+## Make Your Own App
+
+We will show you here a step-by-step tutorial of how to create your own app with METoolkit and integrate with MeshExpert Live!.
+
+### Getting Started
+
+If you are new to Unity and HoloLens development, you may take the course at [HoloAcademy](https://developer.microsoft.com/en-us/windows/mixed-reality/academy) from Microsoft. For creating a Unity project, see [our tutorial](Docs/app-getting-started.md).
+
+### Integrating METoolkit
+
+It is easy to start using METoolkit. You can get the source code from [DataMesh-OpenSource](https://github.com/DataMesh-OpenSource/METoolkit). See the tutorial [Integrating METoolkit with Unity Project](Docs/app-integrate-metoolkit.md) for detailed instructions.
+
+> For complete documentation for METoolkit, see [here](http://docs.datamesh.com/projects/me-live/en/latest/METoolkit-overview/).
+
+### First App
+
+Now let's create a simple app with METoolkit using only the **Anchor Module**. See [here](Docs/app-first-app.md).
+
+### Add Collaboration
+
+Follow [this tutorial](Docs/app-add-collaboration.md) to add collaboration capability to your app so that different people and devices can interact with each other. The core idea for collaboration is exchanging messages among devices through MeshExpert Server. The server defines a simple protocol for message exchange and the METoolkit provides a message wrapper for use.
+
+### Run Your App
+
+Now you have built your own app with collaboration capability. Let's compile and run it with MeshExpert Live! to see the results. See the tutorial [Run with Live!](Docs/app-run-your-app.md) for detailed instructions. If everything works ok, you will see a cube. And if you move the cube in HoloLens, you will also see the same movement in your PC app, which means the two devices are synching.
+
+## Dive into SolarSystemExplorer
+
+The SolarSystemExplorer is essentially the same idea of the first app we just made. However, it comes with more features and involves more work. Check [this doc](Docs/dive-into-solar-system-explorer) to learn more about SolarSystemExplorer.
+
 ## Trouble Shooting
 
 If have any trouble making things work, see the [Trouble Shooting Guide](Docs/trouble-shooting.md) to see if you can find a solution. If no luck, you can always contact us at service@datamesh.com for support. We will try our best to help.
-
-## Make Your Own App
 
 
 
