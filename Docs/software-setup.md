@@ -119,7 +119,7 @@ To use MeshExpert Center to install the LiveAgent to a HoloLens, you need to fir
 <p align="center">
 <img src="https://user-images.githubusercontent.com/27760601/31643187-aabc62aa-b321-11e7-952b-ab14dc56bccd.png" width="800">
 
-<p align="center"><em>Add HoloLens<em></p>
+<p align="center"><em>Add HoloLens</em></p>
 
 </p>
 
