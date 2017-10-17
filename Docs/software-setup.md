@@ -156,7 +156,7 @@ If you are a developer and dive deeper, you can get the source code from this [G
 
 You can download and run PC version directly. No installation needed.
 
-#### Install HoloLens Version
+#### Install HoloLens Version (Optional)
 
 You can install the SolarSystemExplorer app to HoloLens just like LiveAgent App. You upload the app, choose your HoloLens, and select the app and install. This is actually optional for recording third-person view of the Holograms. However, you can use another HoloLens (besides the HoloLens on the Rig) to interact and collaborate with other devices.
 

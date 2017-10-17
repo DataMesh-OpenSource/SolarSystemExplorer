@@ -2,7 +2,7 @@
 
 
 
-SolarSystemExplorer, powered by DataMesh, is an amazing showcase of Mixed Reality experience with seamless integration of spectator view enabled by MeshExpert Live!.
+SolarSystemExplorer, powered by [DataMesh](https://www.datamesh.com), is an amazing showcase of Mixed Reality experience with seamless integration of spectator view enabled by [MeshExpert Live!](https://www.datamesh.com/solution/meshexpert-live).
 
 
 
@@ -33,7 +33,7 @@ Please see the [Software Setup Guide](Docs/software-setup.md) for detailed instr
 
 ### Configurations
 
-See the [Configuration Guide](Docs/configurations.md) for configuring Network and IP addresses.
+See the [Configuration Guide](Docs/configurations.md) for configuring Network and IP addresses. 
 
 ### Run It!
 
@@ -43,20 +43,13 @@ See the [Configuration Guide](Docs/configurations.md) for configuring Network an
 
 
 
-This is a demo app for [**MeshExpert Live!**](https://www.datamesh.com/solution/meshexpert-live "Product Page") by [**DataMesh Inc.**](https://www.datamesh.com "DataMesh Home").
-
-Note: This project depends on **METoolkit**, which is not included here. You need to add METoolkit into this project manually.
-
-You can get METoolkit here:
-
-https://github.com/DataMesh-OpenSource/METoolkit.git
-
-For more detailed documentations for METoolkit, see the [MeshExpert Live! Docs](http://docs.datamesh.com/projects/me-live/ "MeshExpert Live! Documentations").
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+<p align="center">
 
 <img src="https://user-images.githubusercontent.com/27760601/31425588-7eaa51c4-ae92-11e7-82c5-e352b9767328.png" width="400">
+</p>
 
-   Visit us at [www.datamesh.com](http://www.datamesh.com "DataMesh Home")
+  Visit us at [www.datamesh.com](http://www.datamesh.com "DataMesh Home")
