@@ -113,7 +113,7 @@ Now you have built your own app with collaboration capability. Let's compile and
 
 ## Dive into SolarSystemExplorer
 
-The SolarSystemExplorer is essentially the same idea of the first app we just made. However, it comes with more features and involves more work. Check [this doc](Docs/dive-into-solar-system-explorer.md) to learn more about SolarSystemExplorer.
+The SolarSystemExplorer is essentially the same idea of the first app we just made. However, it comes with more features and involves more work. Check [this doc](Docs/DiveDeeper/dive-into-solar-system-explorer.md) to learn more about SolarSystemExplorer.
 
 ## Trouble Shooting
 
