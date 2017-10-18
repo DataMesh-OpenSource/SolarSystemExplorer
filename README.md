@@ -31,7 +31,7 @@ SolarSystemExplorer is a demo app for MeshExpert Live! which comes with many hig
 
 ####  On TV Show
 
-[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31527189-2a89026c-affe-11e7-8b93-5147817d8862.png)](https://www.youtube.com/watch?v=XJ16zSiWeKU "SolarSystemExplorer On TV Show")
+[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31527189-2a89026c-affe-11e7-8b93-5147817d8862.png)](https://www.youtube.com/watch?v=XJ16zSiWeKU  "SolarSystemExplorer On TV Show")
 <p align="left"><em>SolarSystemExplorer On TV Show</em></p>
 
 > In this episode of I'm Future (a popular TV show in China), we helped Microsoft China to create free movement HoloLens Spectator View using MeshExpert Live! and Steadicam. The system is integrated seamlessly with existing broadcasting hardware. It's a pity there's only a few mins left in the final cut. This might be the first in the world to use HoloLens in such way in real TV program.
