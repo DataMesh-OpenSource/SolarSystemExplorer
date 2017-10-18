@@ -31,9 +31,9 @@ Server_Port = 8848
 ```
 
 - It is possible to use personal server IP.
->**Note:**
-- If application is not running on Unity Editor or PC Standalone(Hololens,iOS,Android), app will load **config file** at **PersistentDataPath** and not on Streaming Assets. For more information, please refer to [Utility: Config Files](http://docs.datamesh.com/projects/me-live/en/latest/toolkit/toolkit-man-utility-config-file/)
-- Having the wrong host IP address will cause the application to log a **Delay=0**. Notice the difference between the two pictures below.
+> **Note:**
+> * If application is not running on Unity Editor or PC Standalone(Hololens,iOS,Android), app will load **config file** at **PersistentDataPath** and not on Streaming Assets. For more information, please refer to [Utility: Config Files](http://docs.datamesh.com/projects/me-live/en/latest/toolkit/toolkit-man-utility-config-file/)
+> * Having the wrong host IP address will cause the application to log a **Delay=0**. Notice the difference between the two pictures below.
       <p align="center">
       <img src="https://user-images.githubusercontent.com/7636848/31706018-109faa02-b41a-11e7-9fca-39d8f5ea3763.png" width="400">
       <img src="https://user-images.githubusercontent.com/7636848/31706016-10356aca-b41a-11e7-8abe-7a44c22c7587.png" width="400">
