@@ -1,4 +1,4 @@
-# Compiling Versions
+# Build HoloLens App
 
 ## HoloLens Build
 - In Unity open **File->Build Settings**
@@ -56,16 +56,16 @@
   ```
 
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/26377727/31700076-7b94f6b2-b3f9-11e7-8c31-69ecfa2cd969.png" width="400">
+  <img src="https://user-images.githubusercontent.com/26377727/31700076-7b94f6b2-b3f9-11e7-8c31-69ecfa2cd969.png" width="300">
   </p>
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/26377727/31700081-837d6760-b3f9-11e7-9096-36e7011681ab.png" width="400">
+  <img src="https://user-images.githubusercontent.com/26377727/31700081-837d6760-b3f9-11e7-9096-36e7011681ab.png" width="300">
   </p>
 
 > **Note:** if you choose RemoteMachine, you will be deploying your app to your HoloLens via Wi-Fi so you will need to provide your HoloLens IP address. You will find your HoloLens IP address in **Settings-> Network&Internet->Advanced options**.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/26377727/31700091-88f4936c-b3f9-11e7-8cb4-36199a00c281.png" width="600">
+  <img src="https://user-images.githubusercontent.com/26377727/31700091-88f4936c-b3f9-11e7-8cb4-36199a00c281.png" width="400">
   </p>
 
 - Press the **Play** icon to start deploying you app on your Hololens. 
