@@ -23,4 +23,4 @@ movement on your PC version and vice versa.
 And that's it! You have an application with Collaboration Module working. 
 
 You can now share your holographic experience with other users!! It is enough to install your HoloLens version on other HoloLens devices. Have in mind that you can deploy only on a number of devices
-that is permitted by your license.
+that is permitted by your [license](https://license.datamesh.com).
