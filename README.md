@@ -45,7 +45,7 @@ SolarSystemExplorer is a demo app for MeshExpert Live! which comes with many hig
 
 ####  Collection of Soluations & Apps
 
-[![SolarSystemExplorer On TV](https://user-images.githubusercontent.com/27760601/31645509-02c59f86-b32f-11e7-93e2-af0bfd13d31f.png)](https://www.youtube.com/watch?v=bdmRgSINeu8 "A collection of DataMesh Mixed Reality Solutions and Apps, Video Captured By MeshExpert Live!")
+[![Video Collection](https://user-images.githubusercontent.com/27760601/31645509-02c59f86-b32f-11e7-93e2-af0bfd13d31f.png)](https://www.youtube.com/watch?v=bdmRgSINeu8 "A collection of DataMesh Mixed Reality Solutions and Apps, Video Captured By MeshExpert Live!")
 <p align="left"><em>Collections Captured by MeshExpert Live!</em></p>
 
 > All these videos are recorded by our MeshExpert Live! 4K Moving-Camera Spectator View Capture Solution, a stable MR capture solution that you can easily set up in 10 minutes.
