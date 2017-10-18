@@ -83,7 +83,7 @@ Open the PC app and run!
 
 To get started, click **"Connect HoloLens Spectator View"**. If the HoloLens on the Rig is connected to the PC app a green line of **HoloLens connected** will show up. Otherwise, **HoloLens offline** will show up indicating a failed network connection between the PC app on the Workstation and the LiveAgent on the HoloLens of the Rig. 
 
-Then click **"Start Follow"** to collaborate with other devices like Surface and another HoloLens. The scene on HoloLens and Workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices and share the same experience.
+It will automatically **Start Follow** to collaborate with other devices like Surface and another HoloLens. The scene on HoloLens and Workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices and share the same experience.
 
 ## Make Your Own App
 
@@ -113,7 +113,7 @@ Now you have built your own app with collaboration capability. Let's compile and
 
 ## Dive into SolarSystemExplorer
 
-The SolarSystemExplorer is essentially the same idea of the first app we just made. However, it comes with more features and involves more work. Check [this doc](Docs/dive-into-solar-system-explorer) to learn more about SolarSystemExplorer.
+The SolarSystemExplorer is essentially the same idea of the first app we just made. However, it comes with more features and involves more work. Check [this doc](Docs/dive-into-solar-system-explorer.md) to learn more about SolarSystemExplorer.
 
 ## Trouble Shooting
 
