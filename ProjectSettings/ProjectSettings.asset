@@ -42,9 +42,10 @@ PlayerSettings:
     duration: 2
   m_SplashScreenBackgroundLandscape: {fileID: 0}
   m_SplashScreenBackgroundPortrait: {fileID: 0}
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: ff06f9ce1d123644897fd46e7e5dd623,
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 7a6c2b59665477046a7b50a2c3a2c589,
     type: 3}
-  m_HolographicTrackingLossScreen: {fileID: 0}
+  m_HolographicTrackingLossScreen: {fileID: 2800000, guid: 7a6c2b59665477046a7b50a2c3a2c589,
+    type: 3}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
@@ -212,7 +213,13 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 2800000, guid: d9ac88498802b254eb7c2e695cac2d47,
     type: 3}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 7705ef4db3155354883faa538b990d41, type: 3}
+      m_Width: 128
+      m_Height: 128
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
@@ -389,6 +396,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
     1: ME_LIVE_ACTIVE
+    14: ME_LIVE_ACTIVE
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}

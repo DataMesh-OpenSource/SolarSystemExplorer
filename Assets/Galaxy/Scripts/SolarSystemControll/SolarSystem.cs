@@ -144,6 +144,17 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
         BindGazeManager(false);
     }
 
+
+    public void AddOnTap()
+    {
+        gazeManager.cbTap += OnTap;
+    }
+    public void RemoveOnTap()
+    {
+        gazeManager.cbTap -= OnTap;
+    }
+
+
     public void BindGazeManager(bool bind)
     {
         //CardControl control = CardControl.Instance;
@@ -154,7 +165,7 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
                 gazeManager.ChangeToNavigationRecognizer();
 
-                gazeManager.cbTap += OnTap;
+                AddOnTap();
 
                 if (gazeManager.InteractiveType == MultiInputManager.InputType.Touch
                     || gazeManager.InteractiveType == MultiInputManager.InputType.KeybordAndMouse
@@ -174,7 +185,7 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
         else
         {
 
-                gazeManager.cbTap -= OnTap;
+                RemoveOnTap();
 
                 if (gazeManager.InteractiveType == MultiInputManager.InputType.Touch
                     || gazeManager.InteractiveType == MultiInputManager.InputType.KeybordAndMouse
@@ -206,17 +217,9 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
     private bool ignoreSliderChangedEvent = false;
     private float extraOperatingEndTime;
     private float difference;
-    private float lastValue = 0;
+    //private float lastValue = 0;
     private void OnSliderRotate(float value)
     {
-        // 给抖动添加缓冲，如果小于某个值则不进行旋转
-
-        difference = value - lastValue;
-        // Debug.Log("Diference ============" + difference);
-        lastValue = value;
-        if (difference > 0.001f || difference < 0.001f)
-        {
-            // Debug.Log("拖动进度条:" + value);
             if (!ignoreSliderChangedEvent)
             {
                 //Debug.Log("来发送");
@@ -227,7 +230,6 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
             currentOperationType = ExtraOperationType.Rotate;
             extraOperatingEndTime = Time.realtimeSinceStartup + 0.2f;
-        }
     }
 
     private void OnSliderScale(float value)
@@ -468,16 +470,8 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
     }
     private void SetRotation(Vector3 eulerAngles)
     {
-        if (false/*selected*/)
-        {
-            selectedContainer.localEulerAngles = cv_selected.originEulerAngles;
-            selectedContainer.Rotate(eulerAngles);
-        }
-        else
-        {
-            originContainer.localEulerAngles = cv_originContainer.originEulerAngles;
-            originContainer.Rotate(eulerAngles);
-        }
+        cv_originContainer.transform.localEulerAngles = cv_originContainer.originEulerAngles;
+        cv_originContainer.transform.Rotate(eulerAngles);
     }
 
     void SetChildrenVisible(GameObject go,bool visible)
@@ -491,6 +485,10 @@ public class SolarSystem : MonoBehaviour ,IMessageHandler{
 
     public Vector3 GetPlanetWorldPosition(string planetName)
     {
+        if (planetMap == null)
+            return Vector3.zero;
+        if (!planetMap.ContainsKey(planetName))
+            return Vector3.zero;
         return planetMap[planetName].transform.position;
     }
 

@@ -55,7 +55,8 @@ public class ContainerView : MonoBehaviour {
             }
 
             //transform.localPosition = mixValue * targetLocalPos + (1 - mixValue) * originLocalPos;
-            transform.localRotation = Quaternion.Lerp(lastLocalRot, targetLocalRot, mixValue);
+            //transform.localRotation = Quaternion.Lerp(lastLocalRot, targetLocalRot, mixValue);
+            transform.localRotation = targetLocalRot;
             transform.localScale = (mixValue * targetLocalScal + (1 - mixValue) * lastLocalScal) * Vector3.one;
 
             SolarSystem.Instance.SetSlider(this);
@@ -79,7 +80,8 @@ public class ContainerView : MonoBehaviour {
                 }
 
                 //transform.localPosition = mixValue * targetLocalPos + (1 - mixValue) * originLocalPos;
-                transform.localRotation = Quaternion.Lerp(lastLocalRot, targetLocalRot, mixValue);
+                //transform.localRotation = Quaternion.Lerp(lastLocalRot, targetLocalRot, mixValue);
+                transform.localRotation = targetLocalRot;
                 transform.localScale = (mixValue * targetLocalScal + (1 - mixValue) * lastLocalScal) * Vector3.one;
 
                 SolarSystem.Instance.SetSlider(this);

@@ -10,6 +10,7 @@ using DataMesh.AR.SpectatorView;
 using DataMesh.AR.UI;
 using DataMesh.AR;
 using DataMesh.AR.Network;
+using HoloLensXboxController;
 
 public class MainApp : MonoBehaviour
 {
@@ -89,13 +90,12 @@ public class MainApp : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-#if UNITY_EDITOR
-        // 测试代码，开启anchor调整 
-        if (Input.GetKey(KeyCode.K) && Input.GetKey(KeyCode.LeftControl))
+        if ((Input.GetKeyDown(KeyCode.K) && (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl)))
+            || inputManager.controllerInput.GetButton(ControllerButton.Menu))
         {
             OpenMenu();
         }
-#endif
+
     }
 
     private bool beginAdjustAnchor = false;
