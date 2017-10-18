@@ -28,12 +28,12 @@ Drag them under **Assets** in Unity.
 - In the **Scene** panel, select the MeHoloEntrance
 - In the **Inspector** panel, find MEHoloEntance component and click on **Create All MEHolo Module**
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/26377727/31648587-24f9075c-b341-11e7-9126-98a92975a7fc.png" width="400">
+  <img src="https://user-images.githubusercontent.com/26377727/31648587-24f9075c-b341-11e7-9126-98a92975a7fc.png" width="300">
   </p>
 
 - MEHolo object will be automatically generated in the scene, which includes all the module in METoolKit
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/26377727/31648590-2590ecf2-b341-11e7-91c0-e8f323812e66.png" width="300">
+  <img src="https://user-images.githubusercontent.com/26377727/31648590-2590ecf2-b341-11e7-91c0-e8f323812e66.png" width="250">
   </p>
 
 - Set the App ID in the inspector panel. For instance, set "Sample" as **App ID**
@@ -42,7 +42,7 @@ Drag them under **Assets** in Unity.
   > **Note:** A different APP Name must given to every app because many of ME functions, such as collaboration and storage, will depend on this name.
 
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/26377727/31648585-24c4b8c6-b341-11e7-8881-0a511cc3d66e.png" width="300">
+  <img src="https://user-images.githubusercontent.com/26377727/31648585-24c4b8c6-b341-11e7-8881-0a511cc3d66e.png" width="250">
   </p>
 
 - Under the App Name are checkboxes representing the modules that are in METoolKit.
