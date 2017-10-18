@@ -20,7 +20,7 @@
   Remember: black background will appear transparent in HoloLens.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704550-7a109ad8-b414-11e7-92a0-72667e2a5ed3.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704550-7a109ad8-b414-11e7-92a0-72667e2a5ed3.png" width="500">
 </p>
 
 - Finally save the scene in order to make changes permanent.
@@ -29,20 +29,20 @@
 - Open **Edit -> Project Settings -> Quality**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704693-0225f5f8-b415-11e7-9125-d6646118f2c8.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704693-0225f5f8-b415-11e7-9125-d6646118f2c8.png" width="400">
 </p>
 
 - In the Inspector Panel go under **Window Store** icon. Click on the Default arrow and choose
   Fastest. You will see a green check right under Windows Store icon.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704713-2b6eec44-b415-11e7-8c2c-1e4a60ac3731.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704713-2b6eec44-b415-11e7-8c2c-1e4a60ac3731.png" width="300">
 </p>
 
 - Find **'Other'** under the same panel and change 'V Sync Count' value to Don't Sync.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704714-2baad038-b415-11e7-9105-a2c2599b9ea9.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704714-2baad038-b415-11e7-9105-a2c2599b9ea9.png" width="300">
 </p>
 
 ## Build Settings
@@ -51,7 +51,7 @@
 - With the chosen platform, change **Architecture** value in **x86_64**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704715-2bdce140-b415-11e7-9ac4-5c123e01c84c.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704715-2bdce140-b415-11e7-9ac4-5c123e01c84c.png" width="500">
 </p>
 
 - Click **'Player Settings'** and go to the inspector panel.
@@ -59,7 +59,7 @@
   API Compatibility level to .NET 2.0
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704720-2cb324e4-b415-11e7-96b0-770ad3ff87d5.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704720-2cb324e4-b415-11e7-96b0-770ad3ff87d5.png" width="400">
 </p>
 
 - Re open Build Settings, choose Windows Store under Platform and click Switch Platform.
@@ -73,7 +73,7 @@
   ```
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704721-2ce9d0ca-b415-11e7-96c2-9fbad4647235.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704721-2ce9d0ca-b415-11e7-96c2-9fbad4647235.png" width="500">
 </p>
 
 - Click on the **Player Settings -> Other Settings**.
@@ -98,9 +98,9 @@
   The created folder must be like in the picture below.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704785-692ecd60-b415-11e7-9d5c-2ae5e5de06c0.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704785-692ecd60-b415-11e7-9d5c-2ae5e5de06c0.png" width="300">
 </p>
-​	
+
 ## Build and Deploy
 - Add a cube in the scene and place it where camera can capture
 - Build the project
@@ -108,7 +108,7 @@
 - Find for the  Visual Studio Solution
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704797-79b70d32-b415-11e7-8e7f-81591ae8b433.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704797-79b70d32-b415-11e7-8e7f-81591ae8b433.png" width="500">
 </p>
 
 - In Visual Studio, in the upper panel do as follows: 
@@ -119,11 +119,11 @@
   ```
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704796-79885adc-b415-11e7-88fa-9f573ccac455.png" width="600">
+<img src="https://user-images.githubusercontent.com/7636848/31704796-79885adc-b415-11e7-88fa-9f573ccac455.png" width="400">
 </p>
-​	
-- press **CTRL + F5** or press the icon near **Device**.
-- In Hololens, a cube will be seen and that is a small Hololens
+
+- press **CTRL+F5** or press the icon near **Device**.
+- In HoloLens, a cube will be seen and that is a small HoloLens
   application made with Unity,
 
 It is also possible to have **Local Machine -> Remote Machine**.
