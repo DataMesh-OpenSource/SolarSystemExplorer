@@ -59,7 +59,7 @@
   API Compatibility level to .NET 2.0
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704720-2cb324e4-b415-11e7-96b0-770ad3ff87d5.png" width="400">
+<img src="https://user-images.githubusercontent.com/7636848/31704720-2cb324e4-b415-11e7-96b0-770ad3ff87d5.png" width="300">
 </p>
 
 - Re open Build Settings, choose Windows Store under Platform and click Switch Platform.
@@ -98,7 +98,7 @@
   The created folder must be like in the picture below.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704785-692ecd60-b415-11e7-9d5c-2ae5e5de06c0.png" width="300">
+<img src="https://user-images.githubusercontent.com/7636848/31704785-692ecd60-b415-11e7-9d5c-2ae5e5de06c0.png" width="250">
 </p>
 
 ## Build and Deploy
@@ -119,7 +119,7 @@
   ```
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/31704796-79885adc-b415-11e7-88fa-9f573ccac455.png" width="400">
+<img src="https://user-images.githubusercontent.com/7636848/31704796-79885adc-b415-11e7-88fa-9f573ccac455.png" width="300">
 </p>
 
 - press **CTRL+F5** or press the icon near **Device**.
@@ -127,7 +127,7 @@
   application made with Unity,
 
 It is also possible to have **Local Machine -> Remote Machine**.
-but the Hololens' Ip address must be provided
+but the HoloLens' IP address must be provided
 
 The Hololens Ip address is in 
 **Settings -> Network & Internet -> Advance option -> Ipv4 address**
