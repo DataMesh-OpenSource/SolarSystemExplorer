@@ -116,6 +116,15 @@ You will see the unloaded packages at the bottom of **My Apps** tab.
 
 To use MeshExpert Center to install the LiveAgent to a HoloLens, you need to first add you HoloLens to MeshExpert Center. [See how?](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/blob/master/Docs/center-user-guide.md#devices).
 
+> **Important Note:**
+>
+> MeshExpert uses the Windows Device Portal APIs to connect to HoloLens. Two pre-conditions should be met before you can connect to HoloLens:
+>
+> 1. The **Windows 10 SDK** we mentioned early is installed to your PC.
+> 2. The **Developer Mode** is turned on for your HoloLens.
+>
+> See [this doc](https://developer.microsoft.com/en-us/windows/mixed-reality/using_the_windows_device_portal#setting_up_hololens_to_use_windows_device_portal) for how to set up HoloLens to use device portal. (You will also learn how to use web browser or USB cable to connect to HoloLens, which can be used to test if your HoloLens can be connected. The device portal is very useful for developers.) Then you can try to add your HoloLens to MeshExpert Center.
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/27760601/31643187-aabc62aa-b321-11e7-952b-ab14dc56bccd.png" width="800">
 
