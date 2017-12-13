@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "POI_Transparent"
 {
@@ -58,7 +60,7 @@ Shader "POI_Transparent"
 			{
 				v2f OUT;
 				float3 wPos = mul(unity_ObjectToWorld, IN.vertex);
-				OUT.vertex = mul(UNITY_MATRIX_MVP, IN.vertex);
+				OUT.vertex = UnityObjectToClipPos(IN.vertex);
 				OUT.clipAmount = CalcVertClipAmount(wPos);
 				OUT.texcoord = IN.texcoord;
 

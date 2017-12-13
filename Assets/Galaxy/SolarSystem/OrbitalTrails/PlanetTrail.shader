@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "Planets/PlanetTrail" 
 {
@@ -53,7 +55,7 @@ Shader "Planets/PlanetTrail"
 				v2f vert(appdata_t v)
 				{
 					v2f o;
-					o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.vertex = UnityObjectToClipPos(v.vertex);
 					o.texCoord = v.texCoord;
 					float3 wPos = mul(unity_ObjectToWorld, v.vertex);
 					o.clipAmount = CalcVertClipAmount(wPos);

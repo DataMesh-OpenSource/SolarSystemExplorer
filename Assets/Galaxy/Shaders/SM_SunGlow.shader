@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "SurfaceMapping/SunGlow"
 {
@@ -66,7 +68,7 @@ Shader "SurfaceMapping/SunGlow"
 			v2f vert(appdata v)
 			{
 				v2f o;
-			    o.position = mul(UNITY_MATRIX_MVP, v.vertex);
+			    o.position = UnityObjectToClipPos(v.vertex);
 			    o.normal = mul(unity_ObjectToWorld, v.normal);
 			    float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 			    o.dir = _SunWorldPos - worldPos;

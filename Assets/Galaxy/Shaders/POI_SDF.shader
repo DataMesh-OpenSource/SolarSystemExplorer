@@ -1,4 +1,6 @@
-﻿Shader "POI_SDF"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "POI_SDF"
 {
 	Properties
 	{
@@ -67,7 +69,7 @@
 			{
 				v2f OUT;
 				float3 wPos = mul(unity_ObjectToWorld, IN.vertex);
-				OUT.vertex = mul(UNITY_MATRIX_MVP, IN.vertex);
+				OUT.vertex = UnityObjectToClipPos(IN.vertex);
 				OUT.clipAmount = CalcVertClipAmount(wPos);
 				OUT.texcoord = TRANSFORM_TEX(IN.texcoord, _MainTex);
 

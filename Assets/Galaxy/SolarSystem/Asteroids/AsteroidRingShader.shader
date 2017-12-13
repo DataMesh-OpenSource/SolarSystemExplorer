@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "Asteroids/Ring"
 {
@@ -61,7 +63,7 @@ Shader "Asteroids/Ring"
 				float3 lightToCenter = normalize(wPos - (float3)_LightPosition);
 
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.uv;
 				o.normal = mul((float3x3)unity_ObjectToWorld, v.normal);
 				o.lightToCenter = lightToCenter;

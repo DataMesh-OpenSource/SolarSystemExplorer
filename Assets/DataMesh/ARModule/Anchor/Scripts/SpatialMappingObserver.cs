@@ -7,7 +7,7 @@ using UnityEngine;
 using DataMesh.AR.Utility;
 
 #if UNITY_METRO && !UNITY_EDITOR
-using UnityEngine.VR.WSA;
+using UnityEngine.XR.WSA;
 #endif
 
 namespace DataMesh.AR.Anchor

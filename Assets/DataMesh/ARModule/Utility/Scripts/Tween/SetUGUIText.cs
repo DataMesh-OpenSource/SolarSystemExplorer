@@ -54,13 +54,14 @@ public class SetUGUIText : UITweener {
             return;
         }
 
-        //Debug.Log("text set:" + value);
+        Debug.Log("text set:" + value);
         //throw new NotImplementedException();
     }
 
     public void SetText(string t)
     {
         Init();
+        Debug.Log("set text:" + t+ " on"+textComponent.gameObject.name);
         textComponent.text = t;
     }
 
