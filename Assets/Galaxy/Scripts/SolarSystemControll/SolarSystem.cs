@@ -1,5 +1,5 @@
 ﻿using DataMesh.AR.Interactive;
-using MEHoloClient.Entities;
+using MEHoloClient.Core.Entities;
 using MEHoloClient.Sync.Time;
 using System;
 using System.Collections;

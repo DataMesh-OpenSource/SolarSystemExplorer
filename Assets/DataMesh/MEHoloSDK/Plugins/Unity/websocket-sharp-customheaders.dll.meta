@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 8773652439cf3944c8e158c678cbc6d2
-timeCreated: 1498123135
+guid: a058ece017b609a4bbd3f353f702a9b3
+timeCreated: 1514182061
 licenseType: Free
 PluginImporter:
   externalObjects: {}
@@ -11,16 +11,10 @@ PluginImporter:
   isOverridable: 0
   platformData:
   - first:
-      Android: Android
-    second:
-      enabled: 1
-      settings: {}
-  - first:
-      Any: 
+      '': Any
     second:
       enabled: 0
       settings:
-        Exclude Android: 0
         Exclude Editor: 0
         Exclude Linux: 0
         Exclude Linux64: 0
@@ -28,96 +22,90 @@ PluginImporter:
         Exclude OSXIntel: 0
         Exclude OSXIntel64: 0
         Exclude OSXUniversal: 0
-        Exclude WebGL: 0
         Exclude Win: 0
         Exclude Win64: 0
         Exclude WindowsStoreApps: 1
-        Exclude iOS: 0
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
   - first:
       Editor: Editor
     second:
       enabled: 1
       settings:
+        CPU: AnyCPU
         DefaultValueInitialized: true
-  - first:
-      Facebook: WebGL
-    second:
-      enabled: 1
-      settings: {}
+        OS: AnyOS
   - first:
       Facebook: Win
     second:
-      enabled: 1
-      settings: {}
+      enabled: 0
+      settings:
+        CPU: AnyCPU
   - first:
       Facebook: Win64
     second:
-      enabled: 1
-      settings: {}
+      enabled: 0
+      settings:
+        CPU: AnyCPU
   - first:
       Standalone: Linux
     second:
       enabled: 1
       settings:
-        CPU: 
+        CPU: x86
   - first:
       Standalone: Linux64
     second:
       enabled: 1
       settings:
-        CPU: 
+        CPU: x86_64
   - first:
       Standalone: LinuxUniversal
     second:
       enabled: 1
-      settings:
-        CPU: 
+      settings: {}
   - first:
       Standalone: OSXIntel
     second:
       enabled: 1
       settings:
-        CPU: 
+        CPU: AnyCPU
   - first:
       Standalone: OSXIntel64
     second:
       enabled: 1
       settings:
-        CPU: 
+        CPU: AnyCPU
   - first:
       Standalone: OSXUniversal
     second:
       enabled: 1
-      settings:
-        CPU: 
+      settings: {}
   - first:
       Standalone: Win
     second:
       enabled: 1
       settings:
-        CPU: 
+        CPU: AnyCPU
   - first:
       Standalone: Win64
     second:
       enabled: 1
       settings:
-        CPU: 
-  - first:
-      WebGL: WebGL
-    second:
-      enabled: 1
-      settings: {}
+        CPU: AnyCPU
   - first:
       Windows Store Apps: WindowsStoreApps
     second:
       enabled: 0
       settings:
         CPU: AnyCPU
-  - first:
-      iPhone: iOS
-    second:
-      enabled: 1
-      settings: {}
+        DontProcess: False
+        PlaceholderPath: 
+        SDK: AnySDK
+        ScriptingBackend: AnyScriptingBackend
   userData: 
   assetBundleName: 
   assetBundleVariant: 

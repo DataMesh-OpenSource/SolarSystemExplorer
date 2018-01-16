@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using MEHoloClient.Entities;
+using MEHoloClient.Core.Entities;
 using MEHoloClient.Proto;
 
 public class DefaultObjectObserver : MonoBehaviour

@@ -1,4 +1,4 @@
-﻿using MEHoloClient.Entities;
+﻿using MEHoloClient.Core.Entities;
 using MEHoloClient.Proto;
 using System;
 using System.Collections;
