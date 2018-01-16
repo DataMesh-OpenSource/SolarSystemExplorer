@@ -8,7 +8,7 @@ MeshExpert Live! requires hardware drivers and MeshExpert software to be install
 
 Please make sure you have **Windows 10 pro** and above as operating system. The Windows 10 Home Edition is not suitable for developing purpose. 
 
->  For Windows 10 versions, we recommend the [Creators Update (ver.1703)](https://support.microsoft.com/en-us/help/4028685/windows-get-the-windows-10-creators-update) or above if you are planning to install Windows 10 or can upgrade it. 
+>  For Windows 10 versions, we recommend the [Creators Update (ver.1709)](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-fall-creators-update) or above if you are planning to install Windows 10 or can upgrade it. The new creators update includes some essential updates required by Unity 2017. 
 
 Make sure you have properly set up your basic desktop environment like installing mainboard drivers.
 
@@ -20,13 +20,13 @@ For this guide, we use the **BlackMagic Capture Card** and **NVIDIA GeForce GTX 
 
 Go to [BlackMagic Download Page](https://www.blackmagicdesign.com/support/family/capture-and-playback) to checkout the latest driver version for the capture card. The latest version is always preferred. If you have any trouble getting the video feed, one of the most important trouble shooting step is to update the driver to the newest.
 
-> For now (10/13/2017), the newest version is 10.9.7 for Windows. Here is the direct [download link](https://meshexpert-us.s3.amazonaws.com/Blackmagic_Desktop_Video_Windows_10.9.7.zip).
+> For now (12/19/2017), the newest version is 10.9.7 for Windows. Here is the direct [download link](https://meshexpert-us.s3.amazonaws.com/Blackmagic_Desktop_Video_Windows_10.9.7.zip).
 
 ### Driver for NVIDIA GeForce Video Card
 
 Go to [NVIDIA Driver Search Page](http://www.nvidia.com/Download/index.aspx) to find the latest driver for your video card. The latest version is always preferred.
 
-> For now (10/13/2017), the newest version for GeForce GTX cards is 387.92 for Windows 10 64-bit. Here is the direct [download link](http://us.download.nvidia.com/Windows/387.92/387.92-desktop-win10-64bit-international-whql.exe).
+> For now (12/19/2017), the newest version for GeForce GTX cards is 388.59 for Windows 10 64-bit. Here is the direct [download link](http://us.download.nvidia.com/Windows/388.59/388.59-desktop-win10-64bit-international-whql.exe).
 
 ### Test Capture Card
 
@@ -44,9 +44,11 @@ This step is optional if just want to try SolarSystemExplorer instead of compili
 
 ### Unity
 
-Please use Unity 5.5 or later to develop your apps. (**Unity 5.5.1** is recommended. Unity 5.6.x and Unity 2017 may have some compatibility issues).
+The METoolkit and SolarSystemExplorer app now support **Unity 2017**. We recommend Unity 2017 for users when starting a new project and upgrade to the new Unity versions if possible for previous projects.
 
-Download and run the *Unity Download Assistant* (For Unity 5.5.1, you can use [this link](https://download.unity3d.com/download_unity/88d00a7498cd/UnityDownloadAssistant-5.5.1f1.exe) to download). For UWP support, make sure you check the "Windows Store .NET Scripting Backend" entry during the installation (default is checked).
+Please note that support for legacy Unity version 5.5 is now moved to a new branch "[Branch_2.2_ForUnity5.5.1](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/tree/Branch_2.2_ForUnity5.5.1)". **The master branch is only compatible with Unity 2017.**
+
+Download and run the *Unity Download Assistant* at [Unity website](https://unity3d.com/get-unity/download). For UWP support, make sure you check the "Windows Store .NET Scripting Backend" entry during the installation (default is checked).
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/27760601/31529984-8f5a7e58-b00f-11e7-85b8-ce7e46b66fc1.png" width="400">

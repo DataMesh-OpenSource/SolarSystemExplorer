@@ -27,6 +27,12 @@ SolarSystemExplorer is a demo app for MeshExpert Live! which comes with many hig
 
 [Read More...](https://www.datamesh.com/solution/meshexpert-live)
 
+### What's New
+
+#### Add Unity 2017 Support
+
+Now the SolarSystemExplorer supports Unity 2017 with the upgrade of METoolkit. Now the **master branch** is compatible with Unity 2017, and the support for Unity 5.5 is moved to a new branch [Branch_2.2_ForUnity5.5.1](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/tree/Branch_2.2_ForUnity5.5.1).
+
 ### Gallery & Demo
 
 ####  On TV Show
