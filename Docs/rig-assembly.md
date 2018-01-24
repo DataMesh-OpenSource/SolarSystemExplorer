@@ -80,7 +80,7 @@ Below is a list of recommended requirements for the workstation:
 |      **Memory**      |     16GB dual-channel DDR4 or above      |                                          |
 | **Operating system** |              Windows 10 x64              | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li><li>Windows 10 Pro version and above are required for development.</li></ul> |
 |    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li><li>You can use SATA SSD if you don't need to record 4K videos.</li></ul> |
-|   **Capture Card**   |         PCI-E Video Capture Card         | <ul><li>Recommend [Blackmagic Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k).</li><li>For other possible choices, see [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView#tested-capture-cards).</li></ul> |
+|   **Capture Card**   |         PCI-E Video Capture Card         | <ul><li>Recommend [Blackmagic Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k).</li><li>For other possible choices, see [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView#tested-capture-cards).</li><li>Note that only Blackmagic Intensity Pro 4K card is heavily tested and fully compatible.</li></ul> |
 
 > Note 1: Visit [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder) to see the NVIDIA GPU support matrix.
 
@@ -113,8 +113,10 @@ If you are looking for high-end professional hardware that could be used for sce
 |        item        | Buy Link                                 | Comments                                 |
 | :----------------: | :--------------------------------------- | :--------------------------------------- |
 | **HoloLens stand** | [DataMesh Shop](https://shop.datamesh.com/) | Aluminium stand offered by DataMesh      |
-| **Digital camera** | [Amazon Link](https://www.amazon.com/gp/product/B01M646CFU) for Sony ICLE-6500 + EPZ 16-50 | Extra Battery at [Amazon Link](https://www.amazon.com/gp/product/B01HFOJUCW/) |
-|  **Tripod/head**   | [Amazon Link](https://www.amazon.com/dp/B00139W0XM) for Ravelli AVTP |                                          |
-|  **Capture Card**  | [Amazon Link](https://www.amazon.com/Blackmagic-Design-Intensity-Capture-Playback/dp/B00U3QNP7Q/) for Blackmagic Design Intensity Pro 4K |                                          |
+| **Digital camera** | Sony ICLE-6500 + EPZ 16-50 | You may also buy an extra battery for backup |
+|  **Tripod/head**   | For instance, Ravelli AVTP |                                          |
+|  **Capture Card**  | [Blackmagic Design Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k) |                                          |
 
-> For other possible hardware choices, see the [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView) from Microsoft
+> For other possible hardware choices, see the [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView) from Microsoft.
+
+> Note: if you want to use external capture card instead of integrated capture card, you can use [Blackmagic Design Intensity Shuttle](https://www.blackmagicdesign.com/products/intensity) which is also supported by MeshExpert Live!. Note that the integrated card [Blackmagic Design Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k) comes with better stablility and performance. 
