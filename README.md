@@ -60,7 +60,7 @@ Now the SolarSystemExplorer supports Unity 2017 with the upgrade of METoolkit. N
 
 ### Hardware Setup
 
-To set up hardware for MeshExpert Live! to run SolarSystemExplorer, please see the [Rig Assembly Guide](Docs/rig-assembly.md) for hardware specifications, hardware shopping list, and detailed assembly instructions. **Please do remember to check the hardware requirements within the guide as most of the problems encountered are originated from hardware compatibility issues.**
+To set up hardware for MeshExpert Live! to run SolarSystemExplorer, please see the [Rig Assembly Guide](Docs/rig-assembly.md) for hardware specifications, hardware shopping list, and detailed assembly instructions. **Please do remember to check the hardware requirements within the guide as most of the no-video-stream problems encountered are originated from hardware compatibility issues.**
 
 Here is a video tutorial to help you set up Mixed Reality capture in 10 minutes:
 
