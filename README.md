@@ -79,7 +79,7 @@ See the [Configuration Guide](Docs/configurations.md) for configuring Network an
 
 Open the PC app and run!
 
-> Note: METoolkit v2.3.0 and above are shipped with a new UI design that is more user-friendly. For details, see the UI Operation Guide.
+> Note: METoolkit v2.3.0 and above are shipped with a new UI design that is more user-friendly. For details, see the **[UI Operation Guide](Docs/ui-operation-guide.md)**.
 
 <p align="center">
 

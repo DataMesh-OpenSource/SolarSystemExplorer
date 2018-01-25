@@ -8,7 +8,7 @@ The control center of MeshExpert Live! is at the PC side. You can record MR vide
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35374873-b7be98a8-01df-11e8-9a59-7c87110f87af.png" width="800">
+<img src="https://user-images.githubusercontent.com/27760601/35374873-b7be98a8-01df-11e8-9a59-7c87110f87af.png" width="700">
 <p align="center"><em>Main Window</em></p>
 </p>
 
@@ -25,7 +25,7 @@ There are three icons here:
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35374976-2e620404-01e0-11e8-94f8-b1270ace7bb5.PNG" width="100">
+<img src="https://user-images.githubusercontent.com/27760601/35374976-2e620404-01e0-11e8-94f8-b1270ace7bb5.PNG" width="80">
 <p align="center"><em>Control Panel</em></p>
 </p>
 
@@ -35,7 +35,7 @@ There are three icons here:
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35375076-9a9862c6-01e0-11e8-8e0e-8d6d99157677.png" width="500">
+<img src="https://user-images.githubusercontent.com/27760601/35375076-9a9862c6-01e0-11e8-8e0e-8d6d99157677.png" width="400">
 <p align="center"><em>Set Up</em></p>
 </p>
 
@@ -74,7 +74,7 @@ You can **Move** or **Rotate** the virtual objects by clicking the icons or usin
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35375157-0167acdc-01e1-11e8-82db-3b3b0dcd4c82.png" width="500">
+<img src="https://user-images.githubusercontent.com/27760601/35375157-0167acdc-01e1-11e8-82db-3b3b0dcd4c82.png" width="300">
 <p align="center"><em>Move Anchor</em></p>
 </p>
 
@@ -88,7 +88,7 @@ There are three statues for connecting the HoloLens on the Rig:
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35375331-a00def86-01e1-11e8-9c23-95707b7c2830.png" width="400">
+<img src="https://user-images.githubusercontent.com/27760601/35375331-a00def86-01e1-11e8-9c23-95707b7c2830.png" width="300">
 <p align="center"><em>HoloLens Status</em></p>
 </p>
 
@@ -102,7 +102,7 @@ There are two operations here:
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35375396-d7123d0c-01e1-11e8-8f24-7869d4f9d24d.PNG" width="300">
+<img src="https://user-images.githubusercontent.com/27760601/35375396-d7123d0c-01e1-11e8-8f24-7869d4f9d24d.PNG" width="200">
 <p align="center"><em>Shooting Panel</em></p>
 </p>
 
@@ -116,7 +116,7 @@ The upper right is the preview window showing the real-time MR video streams.
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35375482-237f862c-01e2-11e8-88f0-f8580aae7cdd.PNG" width="500">
+<img src="https://user-images.githubusercontent.com/27760601/35375482-237f862c-01e2-11e8-88f0-f8580aae7cdd.PNG" width="400">
 <p align="center"><em>Preview Window</em></p>
 </p>
 
@@ -128,6 +128,6 @@ The information window will print out debug information for technicians to analy
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/35375541-60d4a192-01e2-11e8-9fc0-8e2d13b915e2.PNG" width="300">
+<img src="https://user-images.githubusercontent.com/27760601/35375541-60d4a192-01e2-11e8-9fc0-8e2d13b915e2.PNG" width="200">
 <p align="center"><em>Information Window</em></p>
 </p>
