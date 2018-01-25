@@ -79,17 +79,19 @@ See the [Configuration Guide](Docs/configurations.md) for configuring Network an
 
 Open the PC app and run!
 
+> Note: METoolkit v2.3.0 and above are shipped with a new UI design that is more user-friendly. For details, see the UI Operation Guide.
+
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/27760601/31645953-6a856122-b331-11e7-8f68-19f8359c13e6.jpg" width="700">
+<img src="https://user-images.githubusercontent.com/27760601/35370300-e1aff624-01c7-11e8-952a-426ae12395b1.png" width="700">
 <p align="center"><em>Run SolarSystemExplorer</em></p>
 </p>
 
-> A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time. The control buttons are at the downer bar. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under **"C:/HologramCapture/SolarSystemExplorer/"**. There are also a vertical and a horizontal zoom-in and zoom-out bars for you to control your scenes. Other options are for you to explore.
+> A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality video stream at real-time. You can click thee double-arrow icon to enter full-screen preview mode. The control buttons are at the top middle. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under **"C:/HologramCapture/SolarSystemExplorer/"**. There are also a vertical and a horizontal zoom-in and zoom-out bars for you to control your scenes. Other options are for you to explore.
 
-To get started, click **"Connect HoloLens Spectator View"**. If the HoloLens on the Rig is connected to the PC app a green line of **HoloLens connected** will show up. Otherwise, **HoloLens offline** will show up indicating a failed network connection between the PC app on the Workstation and the LiveAgent on the HoloLens of the Rig. 
+It will automatically start to follow the HoloLens on the Rig to obtain anchor information. The Follow Statuses are displayed at the top left. If connected, it will show the "Stop Follow" option and if not connected, it would be "Start Follow" option.
 
-It will automatically **Start Follow** to collaborate with other devices like Surface and another HoloLens. The scene on HoloLens and Workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices and share the same experience.
+As it will automatically start to connect and collaborate with other devices like Surface and another HoloLens. The scene on HoloLens and Workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices and share the same experience.
 
 ## Make Your Own App
 
