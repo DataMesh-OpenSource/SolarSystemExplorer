@@ -115,7 +115,7 @@ If you are looking for high-end professional hardware that could be used for sce
 | **HoloLens stand** | [DataMesh Shop](https://shop.datamesh.com/) | Aluminium stand offered by DataMesh      |
 | **Digital camera** | Sony ICLE-6500 + EPZ 16-50 | You may also buy an extra battery for backup |
 |  **Tripod/head**   | For instance, Ravelli AVTP |                                          |
-|  **Capture Card**  | [Blackmagic Design Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k) |                    Other tested cards include: [Blackmagic UltraStudio for Thunderbolt Card](https://www.blackmagicdesign.com/products/ultrastudio) and [Blackmagic Intensity Shuttle Card](https://www.blackmagicdesign.com/products/intensity)                       |
+|  **Capture Card**  | [Blackmagic Design Intensity Pro 4K](https://www.blackmagicdesign.com/products/intensitypro4k) | Other tested cards include: [Blackmagic UltraStudio for Thunderbolt Card](https://www.blackmagicdesign.com/products/ultrastudio) and [Blackmagic Intensity Shuttle Card](https://www.blackmagicdesign.com/products/intensity)|
 
 > For other possible hardware choices, see the [SpectatorView](https://github.com/Microsoft/MixedRealityCompanionKit/tree/master/SpectatorView) from Microsoft.
 
